@@ -1,0 +1,175 @@
+{
+  "training_manifest_sha256": "eee5fe23598de00c5960e2cae9557b7655401eeb0411a6553e3d80e96b771399",
+  "source_manifest_sha256": "10a4ea2c6083e5f248cd4cd211b83ec6530f71e9e11591df9ee2f1d4e7ebf117",
+  "verified_manifest_files": 24,
+  "split_sizes": {
+    "train": 1078,
+    "validation": 359,
+    "test": 360
+  },
+  "split_index_sha256_int64_le": {
+    "train": "22538e28c545211f5658728ab9d8931c98a8a7e4d2a8b0046fa3d8087839b6c2",
+    "validation": "0864b2bb1f554a84b3c32352d886b7ff1d8389ea0f53e2417260ff7e6e254ab0",
+    "test": "be04e4e8817b7755aa27e18045d2854366f9d836a45ea0d9ecaa0cd770d325d2"
+  },
+  "train_class_counts": [
+    107,
+    109,
+    106,
+    110,
+    109,
+    109,
+    109,
+    107,
+    104,
+    108
+  ],
+  "validation_class_counts": [
+    36,
+    36,
+    36,
+    36,
+    36,
+    36,
+    36,
+    36,
+    35,
+    36
+  ],
+  "heldout_inputs_or_labels_archived": false,
+  "gates": {
+    "primary_pass": true,
+    "comparison_pass": false
+  },
+  "validation_accuracy_pair_gap": [
+    0.16991643454038996,
+    0.1058495821727019,
+    0.1643454038997214,
+    0.21169916434540392,
+    0.11142061281337046
+  ],
+  "actual_retained_bytes": 4166953,
+  "rows": [
+    {
+      "seed": 101,
+      "arm": "A",
+      "validation_accuracy": 0.958217270194986,
+      "validation_ce": 0.12030202495172143,
+      "hidden_unchanged": false,
+      "epochs": 250,
+      "updates": 1500,
+      "final_training_loss": 0.04304034365957809,
+      "parameter_bytes_sha256_W1_b1_W2_b2": "872b168179153ef1808b5de9d3ac72c96d0e18c4d2ee58635b4af26f75b0310a",
+      "head_bytes_sha256_W2_b2": "3a4cdf859cfa85c16c7291eb3cd3632c126f0912e6e1624d5f74fda3635c577e"
+    },
+    {
+      "seed": 101,
+      "arm": "B",
+      "validation_accuracy": 0.7883008356545961,
+      "validation_ce": 1.1042780439237307,
+      "hidden_unchanged": true,
+      "epochs": 250,
+      "updates": 1500,
+      "final_training_loss": 1.096036179124449,
+      "parameter_bytes_sha256_W1_b1_W2_b2": "7f80e0046e6c04636949ad5a658cb47faff2d1f641a86fec98dd46e85d4a8113",
+      "head_bytes_sha256_W2_b2": "ac0f5ed405685b8ef8aa42431166d87e23db58bcc5137126eaf774f39f00a1a8"
+    },
+    {
+      "seed": 211,
+      "arm": "A",
+      "validation_accuracy": 0.9665738161559888,
+      "validation_ce": 0.10762426336828965,
+      "hidden_unchanged": false,
+      "epochs": 250,
+      "updates": 1500,
+      "final_training_loss": 0.04157412306244009,
+      "parameter_bytes_sha256_W1_b1_W2_b2": "3be89e5aa6fbb6e11a1ce5d1d0bf760b4c2ab69616b36d937ea16cc0d352945c",
+      "head_bytes_sha256_W2_b2": "2cdeb8f200520387ee868e5508c361158d62e80b4f55b932f4b147c50c8274e2"
+    },
+    {
+      "seed": 211,
+      "arm": "B",
+      "validation_accuracy": 0.8607242339832869,
+      "validation_ce": 0.8195063138517973,
+      "hidden_unchanged": true,
+      "epochs": 250,
+      "updates": 1500,
+      "final_training_loss": 0.8029519183509312,
+      "parameter_bytes_sha256_W1_b1_W2_b2": "7954b4f9dbc5d23ee4696ad6007d105fb3be2f0c9c03569d35368ccd725272de",
+      "head_bytes_sha256_W2_b2": "fe212a3d42a5cef219cdf186a6e6c44c0665ee61ac957eab7b35a854d67e70b4"
+    },
+    {
+      "seed": 307,
+      "arm": "A",
+      "validation_accuracy": 0.9665738161559888,
+      "validation_ce": 0.10800228837205327,
+      "hidden_unchanged": false,
+      "epochs": 250,
+      "updates": 1500,
+      "final_training_loss": 0.04325275665490466,
+      "parameter_bytes_sha256_W1_b1_W2_b2": "56129fd30eb8b390abe98d84d7db18464d6f5420af518aea08819092875157e2",
+      "head_bytes_sha256_W2_b2": "605ffe2321129b474f7975112a883ed59f0775225f2309f471fb60599cb1df17"
+    },
+    {
+      "seed": 307,
+      "arm": "B",
+      "validation_accuracy": 0.8022284122562674,
+      "validation_ce": 0.9379872436133422,
+      "hidden_unchanged": true,
+      "epochs": 250,
+      "updates": 1500,
+      "final_training_loss": 0.9642600076174969,
+      "parameter_bytes_sha256_W1_b1_W2_b2": "c8cad7f4f808f82010fea39d825e512eb5ddf84b4e4bc5fb233af961c0355d72",
+      "head_bytes_sha256_W2_b2": "f64f72152607be9a5b53519062966e88721c6fa9e4dde6bbd6fb248b29bfe077"
+    },
+    {
+      "seed": 401,
+      "arm": "A",
+      "validation_accuracy": 0.9637883008356546,
+      "validation_ce": 0.11184170646750238,
+      "hidden_unchanged": false,
+      "epochs": 250,
+      "updates": 1500,
+      "final_training_loss": 0.04879144844307114,
+      "parameter_bytes_sha256_W1_b1_W2_b2": "f3ac6753291f596bc1cb10325e3a2afa4ac6651d0d834776508da0fcdd96676b",
+      "head_bytes_sha256_W2_b2": "9ff99455b685d89f55f9aed7526d534e1d5b9c49e97e8fa8bba36a69d84365c0"
+    },
+    {
+      "seed": 401,
+      "arm": "B",
+      "validation_accuracy": 0.7520891364902507,
+      "validation_ce": 1.0342153240101382,
+      "hidden_unchanged": true,
+      "epochs": 250,
+      "updates": 1500,
+      "final_training_loss": 1.0014240972496666,
+      "parameter_bytes_sha256_W1_b1_W2_b2": "57f0e82f8baa6e224c885644756aea7f4c9c69a26fe0c1f86f8fed23dd833a50",
+      "head_bytes_sha256_W2_b2": "99de7b981612b58314771114b7c8ee336b2ef5feff36cdcda545b177bdbc2ac5"
+    },
+    {
+      "seed": 503,
+      "arm": "A",
+      "validation_accuracy": 0.9610027855153204,
+      "validation_ce": 0.10376542858858737,
+      "hidden_unchanged": false,
+      "epochs": 250,
+      "updates": 1500,
+      "final_training_loss": 0.0448422920621295,
+      "parameter_bytes_sha256_W1_b1_W2_b2": "4ebb06b372363cd0e60c23943e3e415f99b90d7c4a62048016fd31c43a41db84",
+      "head_bytes_sha256_W2_b2": "6d4a4364c2e01bb2cddc0e9fbe7ecd7650c8e7155e63f06ecff4cbf7aac63277"
+    },
+    {
+      "seed": 503,
+      "arm": "B",
+      "validation_accuracy": 0.8495821727019499,
+      "validation_ce": 0.76222167419367,
+      "hidden_unchanged": true,
+      "epochs": 250,
+      "updates": 1500,
+      "final_training_loss": 0.7133676679268864,
+      "parameter_bytes_sha256_W1_b1_W2_b2": "6a0bd4adfc93ddd95f132c4df64da80881ddd1d9bca5b946d89fc8399877ccdc",
+      "head_bytes_sha256_W2_b2": "4a2bc60c111513b95bba811fdc3328ae4655979c83675c01a0d5324e1366db41"
+    }
+  ],
+  "scope": "Read-only artifact review; no retraining, raw test-data loading, or held-out inference."
+}

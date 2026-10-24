@@ -1,0 +1,192 @@
+{
+  "conditions": [
+    "pca",
+    "rank-0",
+    "rank-1",
+    "rank-2",
+    "rank-3",
+    "rank-4",
+    "rank-5",
+    "rank-6",
+    "rank-7",
+    "rank-8",
+    "rank-9",
+    "rank-10",
+    "rank-11",
+    "rank-12",
+    "rank-13",
+    "rank-14",
+    "rank-15",
+    "energy-0",
+    "energy-1",
+    "energy-2",
+    "energy-3",
+    "energy-4",
+    "energy-5",
+    "energy-6",
+    "energy-7",
+    "energy-8",
+    "energy-9",
+    "energy-10",
+    "energy-11",
+    "energy-12",
+    "energy-13",
+    "energy-14",
+    "energy-15"
+  ],
+  "examples": 360,
+  "integrity": [
+    {
+      "arm": "A",
+      "energy": 2.6645352591003757e-15,
+      "full_rank_endpoint": 4.218847493575595e-15,
+      "identity": 0.0,
+      "orthogonality": 1.1102230246251565e-15,
+      "seed": 101
+    },
+    {
+      "arm": "B",
+      "energy": 6.661338147750939e-16,
+      "full_rank_endpoint": 1.27675647831893e-15,
+      "identity": 0.0,
+      "orthogonality": 1.1102230246251565e-15,
+      "seed": 101
+    },
+    {
+      "arm": "A",
+      "energy": 3.552713678800501e-15,
+      "full_rank_endpoint": 6.217248937900877e-15,
+      "identity": 0.0,
+      "orthogonality": 1.1102230246251565e-15,
+      "seed": 211
+    },
+    {
+      "arm": "B",
+      "energy": 8.881784197001252e-16,
+      "full_rank_endpoint": 2.3314683517128287e-15,
+      "identity": 0.0,
+      "orthogonality": 1.1102230246251565e-15,
+      "seed": 211
+    },
+    {
+      "arm": "A",
+      "energy": 3.552713678800501e-15,
+      "full_rank_endpoint": 4.551914400963142e-15,
+      "identity": 0.0,
+      "orthogonality": 1.1102230246251565e-15,
+      "seed": 307
+    },
+    {
+      "arm": "B",
+      "energy": 8.881784197001252e-16,
+      "full_rank_endpoint": 1.942890293094024e-15,
+      "identity": 0.0,
+      "orthogonality": 1.1102230246251565e-15,
+      "seed": 307
+    },
+    {
+      "arm": "A",
+      "energy": 3.552713678800501e-15,
+      "full_rank_endpoint": 3.774758283725532e-15,
+      "identity": 0.0,
+      "orthogonality": 1.3322676295501878e-15,
+      "seed": 401
+    },
+    {
+      "arm": "B",
+      "energy": 8.881784197001252e-16,
+      "full_rank_endpoint": 1.7763568394002505e-15,
+      "identity": 0.0,
+      "orthogonality": 1.3322676295501878e-15,
+      "seed": 401
+    },
+    {
+      "arm": "A",
+      "energy": 3.552713678800501e-15,
+      "full_rank_endpoint": 3.774758283725532e-15,
+      "identity": 0.0,
+      "orthogonality": 1.1102230246251565e-15,
+      "seed": 503
+    },
+    {
+      "arm": "B",
+      "energy": 8.881784197001252e-16,
+      "full_rank_endpoint": 1.887379141862766e-15,
+      "identity": 0.0,
+      "orthogonality": 1.1102230246251565e-15,
+      "seed": 503
+    }
+  ],
+  "model_arm_count": 10,
+  "primary": {
+    "ci95": [
+      1.2468202975333147,
+      1.404319860037557
+    ],
+    "interpretation": "supports_conditional_excess",
+    "mean": 1.3256401424455386,
+    "per_seed": [
+      1.3870759300502586,
+      1.4254276852820549,
+      1.3118839301944527,
+      1.2743478810342581,
+      1.2294652856666692
+    ],
+    "positive_seeds": 5,
+    "scope": "Conditional on fixed models, reused test cases, and sampled controls"
+  },
+  "ranks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "reuse_limit": "Previously used benchmark; not new/writer-held-out data",
+  "secondary": {
+    "ci95": [
+      0.612527867986875,
+      0.7376325687341413
+    ],
+    "eligible": false,
+    "interpretation": "competence mismatch; no learning-specific conclusion",
+    "mean": 0.6757397872420726,
+    "per_seed": [
+      0.8330342327056305,
+      0.7174324950718954,
+      0.6144645914896306,
+      0.7574660206672948,
+      0.45630159627591127
+    ],
+    "scope": "Conditional on fixed models, reused test cases, and sampled controls"
+  },
+  "stage": "heldout"
+}

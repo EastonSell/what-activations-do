@@ -1,0 +1,9 @@
+{
+  "accepted": true,
+  "models": 10,
+  "gates": {
+    "primary_pass": true,
+    "comparison_pass": false
+  },
+  "limit": "Verifies archived inputs, seeded initialization/orders, forward outputs and final loss; not independent retraining"
+}

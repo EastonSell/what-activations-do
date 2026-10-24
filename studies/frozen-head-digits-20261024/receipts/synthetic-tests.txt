@@ -1,0 +1,45 @@
+test_rejects_config_source_and_training_binding_changes (test_audit_mutations.AuditMutationTests.test_rejects_config_source_and_training_binding_changes) ... ok
+test_rejects_effect_array_disagreement (test_audit_mutations.AuditMutationTests.test_rejects_effect_array_disagreement) ... ok
+test_rejects_expanded_watchdog_limit (test_audit_mutations.AuditMutationTests.test_rejects_expanded_watchdog_limit) ... ok
+test_rejects_false_final_training_loss (test_audit_mutations.AuditMutationTests.test_rejects_false_final_training_loss) ... ok
+test_rejects_invalid_epoch_time_and_nonfinite_loss (test_audit_mutations.AuditMutationTests.test_rejects_invalid_epoch_time_and_nonfinite_loss) ... ok
+test_rejects_missing_training_archive (test_audit_mutations.AuditMutationTests.test_rejects_missing_training_archive) ... ok
+test_rejects_over_budget_resource_record (test_audit_mutations.AuditMutationTests.test_rejects_over_budget_resource_record) ... ok
+test_rejects_resealed_false_primary_and_secondary_statistics (test_audit_mutations.AuditMutationTests.test_rejects_resealed_false_primary_and_secondary_statistics) ... ok
+test_rejects_seeded_basis_change_even_when_projection_unchanged (test_audit_mutations.AuditMutationTests.test_rejects_seeded_basis_change_even_when_projection_unchanged) ... ok
+test_rejects_self_consistent_unlinked_final_head (test_audit_mutations.AuditMutationTests.test_rejects_self_consistent_unlinked_final_head) ... ok
+test_rejects_shared_but_wrong_batch_order_hashes (test_audit_mutations.AuditMutationTests.test_rejects_shared_but_wrong_batch_order_hashes) ... ok
+test_rejects_unexpected_manifest_coverage (test_audit_mutations.AuditMutationTests.test_rejects_unexpected_manifest_coverage) ... ok
+test_rejects_unprescribed_initial_snapshot (test_audit_mutations.AuditMutationTests.test_rejects_unprescribed_initial_snapshot) ... ok
+test_centered_removal_preserves_mean_and_k0_is_identity (test_core.InterventionTests.test_centered_removal_preserves_mean_and_k0_is_identity) ... ok
+test_fit_is_train_only_not_affected_by_test_shift (test_core.InterventionTests.test_fit_is_train_only_not_affected_by_test_shift) ... ok
+test_full_rank_projection_is_constant_mean (test_core.InterventionTests.test_full_rank_projection_is_constant_mean) ... ok
+test_gates_retain_failures_and_separate_comparability (test_core.InterventionTests.test_gates_retain_failures_and_separate_comparability) ... ok
+test_primary_statistic_preserves_example_pairing (test_core.InterventionTests.test_primary_statistic_preserves_example_pairing) ... ok
+test_random_energy_matches_each_example (test_core.InterventionTests.test_random_energy_matches_each_example) ... ok
+test_adam_first_and_second_scalar_steps (test_core.NumericalTests.test_adam_first_and_second_scalar_steps) ... ok
+test_bad_shapes_and_nonfinite_inputs_are_rejected (test_core.NumericalTests.test_bad_shapes_and_nonfinite_inputs_are_rejected) ... ok
+test_fixed_hidden_training_keeps_initial_bytes (test_core.NumericalTests.test_fixed_hidden_training_keeps_initial_bytes) ... ok
+test_forward_matches_independent_equations (test_core.NumericalTests.test_forward_matches_independent_equations) ... ok
+test_gradient_matches_central_differences (test_core.NumericalTests.test_gradient_matches_central_differences) ... ok
+test_metrics_are_stable_and_use_strongest_foil (test_core.NumericalTests.test_metrics_are_stable_and_use_strongest_foil) ... ok
+test_repeat_training_has_identical_parameters_and_schedule (test_core.NumericalTests.test_repeat_training_has_identical_parameters_and_schedule) ... ok
+test_each_epoch_records_finite_monotonic_elapsed_time (test_core.TimingTests.test_each_epoch_records_finite_monotonic_elapsed_time) ... ok
+test_independent_audit_reconstructs_all_synthetic_cells (test_pipeline.IndependentAuditTests.test_independent_audit_reconstructs_all_synthetic_cells) ... ok
+test_split_overlap_and_missing_example_rejected (test_pipeline.PipelineTests.test_split_overlap_and_missing_example_rejected) ... ok
+test_synthetic_two_stage_outputs_all_cells (test_pipeline.PipelineTests.test_synthetic_two_stage_outputs_all_cells) ... ok
+test_training_artifact_has_no_test_logits_and_fixed_hidden (test_pipeline.PipelineTests.test_training_artifact_has_no_test_logits_and_fixed_hidden) ... ok
+test_completion_requires_watchdog_and_matching_manifest (test_runner.RunnerTests.test_completion_requires_watchdog_and_matching_manifest) ... ok
+test_independent_rescorer_matches_hand_computed_losses (test_runner.RunnerTests.test_independent_rescorer_matches_hand_computed_losses) ... ok
+test_real_data_cli_refuses_without_stage_clearance (test_runner.RunnerTests.test_real_data_cli_refuses_without_stage_clearance) ... ok
+test_watchdog_stops_its_own_overdue_synthetic_child (test_runner.WatchdogTests.test_watchdog_stops_its_own_overdue_synthetic_child) ... ok
+test_budget_rejects_oversize_output (test_storage.StorageTests.test_budget_rejects_oversize_output) ... ok
+test_clearance_matches_stage_and_both_frozen_hashes (test_storage.StorageTests.test_clearance_matches_stage_and_both_frozen_hashes) ... ok
+test_existing_output_and_dangling_symlink_are_refused (test_storage.StorageTests.test_existing_output_and_dangling_symlink_are_refused) ... ok
+test_json_and_npz_writes_are_exclusive (test_storage.StorageTests.test_json_and_npz_writes_are_exclusive) ... ok
+test_manifest_rejects_tampering_and_escape (test_storage.StorageTests.test_manifest_rejects_tampering_and_escape) ... ok
+
+----------------------------------------------------------------------
+Ran 40 tests in 2.539s
+
+OK

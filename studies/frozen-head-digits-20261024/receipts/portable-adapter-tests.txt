@@ -1,0 +1,7 @@
+test_cached_member_is_exact_and_read_only (__main__.AdapterTests.test_cached_member_is_exact_and_read_only) ... ok
+test_exact_frozen_audit_agreement_on_fabricated_archive (__main__.AdapterTests.test_exact_frozen_audit_agreement_on_fabricated_archive) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.312s
+
+OK

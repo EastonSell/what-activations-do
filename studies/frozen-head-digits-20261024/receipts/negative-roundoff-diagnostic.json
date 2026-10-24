@@ -1,0 +1,365 @@
+{
+  "scope": "Post-run read-only numerical diagnostic, not a changed frozen metric or confirmatory endpoint. Reconstructs edited hidden states only; no head/model inference.",
+  "tolerance": 1e-10,
+  "primary_ranks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "full_rank_pca_rank_all_negatives_within_tolerance": true,
+  "aggregate": {
+    "A": {
+      "pca": {
+        "raw_negative_coordinate_fraction": 0.04578776041666666,
+        "negative_beyond_tolerance_coordinate_fraction": 0.017975260416666666,
+        "case_fraction_negative_beyond_tolerance": 0.4040972222222222,
+        "mean_negative_part_l2": 0.07257684010002102,
+        "minimum_coordinate": -1.2086910596226133
+      },
+      "rank": {
+        "raw_negative_coordinate_fraction": 0.09455105251736111,
+        "negative_beyond_tolerance_coordinate_fraction": 0.09455105251736111,
+        "case_fraction_negative_beyond_tolerance": 0.9726822916666666,
+        "mean_negative_part_l2": 0.3793872649558185,
+        "minimum_coordinate": -2.3111718381619064
+      },
+      "energy": {
+        "raw_negative_coordinate_fraction": 0.16629326714409723,
+        "negative_beyond_tolerance_coordinate_fraction": 0.16629326714409723,
+        "case_fraction_negative_beyond_tolerance": 0.9932118055555555,
+        "mean_negative_part_l2": 1.4531450818853169,
+        "minimum_coordinate": -4.249881810094917
+      }
+    },
+    "B": {
+      "pca": {
+        "raw_negative_coordinate_fraction": 0.1939040798611111,
+        "negative_beyond_tolerance_coordinate_fraction": 0.17642578125,
+        "case_fraction_negative_beyond_tolerance": 0.992013888888889,
+        "mean_negative_part_l2": 0.0719035380836689,
+        "minimum_coordinate": -0.3444686592797152
+      },
+      "rank": {
+        "raw_negative_coordinate_fraction": 0.23360188802083331,
+        "negative_beyond_tolerance_coordinate_fraction": 0.23360188802083331,
+        "case_fraction_negative_beyond_tolerance": 0.9998958333333334,
+        "mean_negative_part_l2": 0.14832701732788137,
+        "minimum_coordinate": -0.5027351246393902
+      },
+      "energy": {
+        "raw_negative_coordinate_fraction": 0.28487589518229167,
+        "negative_beyond_tolerance_coordinate_fraction": 0.28487589518229167,
+        "case_fraction_negative_beyond_tolerance": 0.9999956597222223,
+        "mean_negative_part_l2": 0.4005127294804943,
+        "minimum_coordinate": -1.2027406292269658
+      }
+    }
+  },
+  "records": [
+    {
+      "seed": 101,
+      "arm": "A",
+      "kind": "pca",
+      "raw_negative_coordinate_fraction": 0.029361979166666666,
+      "negative_beyond_tolerance_coordinate_fraction": 0.014626736111111111,
+      "case_fraction_negative_beyond_tolerance": 0.30729166666666663,
+      "minimum_coordinate": -1.0314323422933218,
+      "mean_negative_part_l2": 0.06947321351502186
+    },
+    {
+      "seed": 101,
+      "arm": "A",
+      "kind": "rank",
+      "raw_negative_coordinate_fraction": 0.08984646267361113,
+      "negative_beyond_tolerance_coordinate_fraction": 0.08984646267361113,
+      "case_fraction_negative_beyond_tolerance": 0.9597656250000002,
+      "minimum_coordinate": -1.3226000778224127,
+      "mean_negative_part_l2": 0.3207485217234075
+    },
+    {
+      "seed": 101,
+      "arm": "A",
+      "kind": "energy",
+      "raw_negative_coordinate_fraction": 0.15652872721354166,
+      "negative_beyond_tolerance_coordinate_fraction": 0.15652872721354166,
+      "case_fraction_negative_beyond_tolerance": 0.9938802083333333,
+      "minimum_coordinate": -3.79040371720214,
+      "mean_negative_part_l2": 1.333946530566271
+    },
+    {
+      "seed": 101,
+      "arm": "B",
+      "kind": "pca",
+      "raw_negative_coordinate_fraction": 0.21431206597222224,
+      "negative_beyond_tolerance_coordinate_fraction": 0.21431206597222224,
+      "case_fraction_negative_beyond_tolerance": 0.9986111111111111,
+      "minimum_coordinate": -0.33261649375852653,
+      "mean_negative_part_l2": 0.0620620914103331
+    },
+    {
+      "seed": 101,
+      "arm": "B",
+      "kind": "rank",
+      "raw_negative_coordinate_fraction": 0.24945814344618056,
+      "negative_beyond_tolerance_coordinate_fraction": 0.24945814344618056,
+      "case_fraction_negative_beyond_tolerance": 0.9999131944444444,
+      "minimum_coordinate": -0.398672887018826,
+      "mean_negative_part_l2": 0.13227930371777413
+    },
+    {
+      "seed": 101,
+      "arm": "B",
+      "kind": "energy",
+      "raw_negative_coordinate_fraction": 0.29678480360243054,
+      "negative_beyond_tolerance_coordinate_fraction": 0.29678480360243054,
+      "case_fraction_negative_beyond_tolerance": 1.0,
+      "minimum_coordinate": -0.7453903749293317,
+      "mean_negative_part_l2": 0.3264493238320501
+    },
+    {
+      "seed": 211,
+      "arm": "A",
+      "kind": "pca",
+      "raw_negative_coordinate_fraction": 0.030707465277777776,
+      "negative_beyond_tolerance_coordinate_fraction": 0.01733940972222222,
+      "case_fraction_negative_beyond_tolerance": 0.35868055555555556,
+      "minimum_coordinate": -1.2086910596226133,
+      "mean_negative_part_l2": 0.08657872358843369
+    },
+    {
+      "seed": 211,
+      "arm": "A",
+      "kind": "rank",
+      "raw_negative_coordinate_fraction": 0.08778347439236112,
+      "negative_beyond_tolerance_coordinate_fraction": 0.08778347439236112,
+      "case_fraction_negative_beyond_tolerance": 0.9751519097222221,
+      "minimum_coordinate": -1.5568984640806658,
+      "mean_negative_part_l2": 0.3658647260798014
+    },
+    {
+      "seed": 211,
+      "arm": "A",
+      "kind": "energy",
+      "raw_negative_coordinate_fraction": 0.1662631564670139,
+      "negative_beyond_tolerance_coordinate_fraction": 0.1662631564670139,
+      "case_fraction_negative_beyond_tolerance": 0.993337673611111,
+      "minimum_coordinate": -3.7997418280627535,
+      "mean_negative_part_l2": 1.4863614172057207
+    },
+    {
+      "seed": 211,
+      "arm": "B",
+      "kind": "pca",
+      "raw_negative_coordinate_fraction": 0.17881944444444445,
+      "negative_beyond_tolerance_coordinate_fraction": 0.16356336805555555,
+      "case_fraction_negative_beyond_tolerance": 0.9961805555555556,
+      "minimum_coordinate": -0.3327608883357896,
+      "mean_negative_part_l2": 0.08029463590732097
+    },
+    {
+      "seed": 211,
+      "arm": "B",
+      "kind": "rank",
+      "raw_negative_coordinate_fraction": 0.2148776584201389,
+      "negative_beyond_tolerance_coordinate_fraction": 0.2148776584201389,
+      "case_fraction_negative_beyond_tolerance": 0.9998697916666667,
+      "minimum_coordinate": -0.4429496336019749,
+      "mean_negative_part_l2": 0.14986460784251193
+    },
+    {
+      "seed": 211,
+      "arm": "B",
+      "kind": "energy",
+      "raw_negative_coordinate_fraction": 0.2716152615017361,
+      "negative_beyond_tolerance_coordinate_fraction": 0.2716152615017361,
+      "case_fraction_negative_beyond_tolerance": 0.9999782986111111,
+      "minimum_coordinate": -0.8901685862775263,
+      "mean_negative_part_l2": 0.430806587050177
+    },
+    {
+      "seed": 307,
+      "arm": "A",
+      "kind": "pca",
+      "raw_negative_coordinate_fraction": 0.07328559027777778,
+      "negative_beyond_tolerance_coordinate_fraction": 0.013650173611111111,
+      "case_fraction_negative_beyond_tolerance": 0.31805555555555554,
+      "minimum_coordinate": -0.8422132567304571,
+      "mean_negative_part_l2": 0.051213171716042186
+    },
+    {
+      "seed": 307,
+      "arm": "A",
+      "kind": "rank",
+      "raw_negative_coordinate_fraction": 0.11002332899305556,
+      "negative_beyond_tolerance_coordinate_fraction": 0.11002332899305556,
+      "case_fraction_negative_beyond_tolerance": 0.9870225694444444,
+      "minimum_coordinate": -1.9855157856708272,
+      "mean_negative_part_l2": 0.4513716708806096
+    },
+    {
+      "seed": 307,
+      "arm": "A",
+      "kind": "energy",
+      "raw_negative_coordinate_fraction": 0.18247816297743055,
+      "negative_beyond_tolerance_coordinate_fraction": 0.18247816297743055,
+      "case_fraction_negative_beyond_tolerance": 0.9968967013888888,
+      "minimum_coordinate": -3.874672426619335,
+      "mean_negative_part_l2": 1.5795556162118871
+    },
+    {
+      "seed": 307,
+      "arm": "B",
+      "kind": "pca",
+      "raw_negative_coordinate_fraction": 0.2365668402777778,
+      "negative_beyond_tolerance_coordinate_fraction": 0.21043836805555555,
+      "case_fraction_negative_beyond_tolerance": 0.9996527777777777,
+      "minimum_coordinate": -0.3336957024695168,
+      "mean_negative_part_l2": 0.08081857455967291
+    },
+    {
+      "seed": 307,
+      "arm": "B",
+      "kind": "rank",
+      "raw_negative_coordinate_fraction": 0.2782368977864583,
+      "negative_beyond_tolerance_coordinate_fraction": 0.2782368977864583,
+      "case_fraction_negative_beyond_tolerance": 1.0,
+      "minimum_coordinate": -0.40630372854449837,
+      "mean_negative_part_l2": 0.15923218704667838
+    },
+    {
+      "seed": 307,
+      "arm": "B",
+      "kind": "energy",
+      "raw_negative_coordinate_fraction": 0.328729248046875,
+      "negative_beyond_tolerance_coordinate_fraction": 0.328729248046875,
+      "case_fraction_negative_beyond_tolerance": 1.0,
+      "minimum_coordinate": -0.8406362867455764,
+      "mean_negative_part_l2": 0.43031628256232773
+    },
+    {
+      "seed": 401,
+      "arm": "A",
+      "kind": "pca",
+      "raw_negative_coordinate_fraction": 0.060948350694444445,
+      "negative_beyond_tolerance_coordinate_fraction": 0.02294921875,
+      "case_fraction_negative_beyond_tolerance": 0.5690972222222221,
+      "minimum_coordinate": -0.9962468945370484,
+      "mean_negative_part_l2": 0.0764445148004855
+    },
+    {
+      "seed": 401,
+      "arm": "A",
+      "kind": "rank",
+      "raw_negative_coordinate_fraction": 0.09982842339409721,
+      "negative_beyond_tolerance_coordinate_fraction": 0.09982842339409721,
+      "case_fraction_negative_beyond_tolerance": 0.9805338541666666,
+      "minimum_coordinate": -2.3111718381619064,
+      "mean_negative_part_l2": 0.40774817886591247
+    },
+    {
+      "seed": 401,
+      "arm": "A",
+      "kind": "energy",
+      "raw_negative_coordinate_fraction": 0.1728278266059028,
+      "negative_beyond_tolerance_coordinate_fraction": 0.1728278266059028,
+      "case_fraction_negative_beyond_tolerance": 0.9915364583333333,
+      "minimum_coordinate": -3.945968952735708,
+      "mean_negative_part_l2": 1.498525600997164
+    },
+    {
+      "seed": 401,
+      "arm": "B",
+      "kind": "pca",
+      "raw_negative_coordinate_fraction": 0.19763454861111113,
+      "negative_beyond_tolerance_coordinate_fraction": 0.166796875,
+      "case_fraction_negative_beyond_tolerance": 0.9958333333333333,
+      "minimum_coordinate": -0.3444686592797152,
+      "mean_negative_part_l2": 0.062206686683359616
+    },
+    {
+      "seed": 401,
+      "arm": "B",
+      "kind": "rank",
+      "raw_negative_coordinate_fraction": 0.23008829752604165,
+      "negative_beyond_tolerance_coordinate_fraction": 0.23008829752604165,
+      "case_fraction_negative_beyond_tolerance": 0.9999565972222222,
+      "minimum_coordinate": -0.3953893582949712,
+      "mean_negative_part_l2": 0.15153317402631478
+    },
+    {
+      "seed": 401,
+      "arm": "B",
+      "kind": "energy",
+      "raw_negative_coordinate_fraction": 0.2693705240885417,
+      "negative_beyond_tolerance_coordinate_fraction": 0.2693705240885417,
+      "case_fraction_negative_beyond_tolerance": 1.0,
+      "minimum_coordinate": -0.9865643271196701,
+      "mean_negative_part_l2": 0.3878922570767883
+    },
+    {
+      "seed": 503,
+      "arm": "A",
+      "kind": "pca",
+      "raw_negative_coordinate_fraction": 0.03463541666666667,
+      "negative_beyond_tolerance_coordinate_fraction": 0.02131076388888889,
+      "case_fraction_negative_beyond_tolerance": 0.4673611111111111,
+      "minimum_coordinate": -0.9957547869856365,
+      "mean_negative_part_l2": 0.0791745768801219
+    },
+    {
+      "seed": 503,
+      "arm": "A",
+      "kind": "rank",
+      "raw_negative_coordinate_fraction": 0.08527357313368056,
+      "negative_beyond_tolerance_coordinate_fraction": 0.08527357313368056,
+      "case_fraction_negative_beyond_tolerance": 0.9609375,
+      "minimum_coordinate": -1.8523197048292044,
+      "mean_negative_part_l2": 0.35120322722936126
+    },
+    {
+      "seed": 503,
+      "arm": "A",
+      "kind": "energy",
+      "raw_negative_coordinate_fraction": 0.15336846245659722,
+      "negative_beyond_tolerance_coordinate_fraction": 0.15336846245659722,
+      "case_fraction_negative_beyond_tolerance": 0.990407986111111,
+      "minimum_coordinate": -4.249881810094917,
+      "mean_negative_part_l2": 1.3673362444455424
+    },
+    {
+      "seed": 503,
+      "arm": "B",
+      "kind": "pca",
+      "raw_negative_coordinate_fraction": 0.1421875,
+      "negative_beyond_tolerance_coordinate_fraction": 0.12701822916666666,
+      "case_fraction_negative_beyond_tolerance": 0.9697916666666666,
+      "minimum_coordinate": -0.27139396994703957,
+      "mean_negative_part_l2": 0.07413570185765786
+    },
+    {
+      "seed": 503,
+      "arm": "B",
+      "kind": "rank",
+      "raw_negative_coordinate_fraction": 0.19534844292534723,
+      "negative_beyond_tolerance_coordinate_fraction": 0.19534844292534723,
+      "case_fraction_negative_beyond_tolerance": 0.9997395833333333,
+      "minimum_coordinate": -0.5027351246393902,
+      "mean_negative_part_l2": 0.14872581400612767
+    },
+    {
+      "seed": 503,
+      "arm": "B",
+      "kind": "energy",
+      "raw_negative_coordinate_fraction": 0.257879638671875,
+      "negative_beyond_tolerance_coordinate_fraction": 0.257879638671875,
+      "case_fraction_negative_beyond_tolerance": 1.0,
+      "minimum_coordinate": -1.2027406292269658,
+      "mean_negative_part_l2": 0.4270991968811283
+    }
+  ]
+}

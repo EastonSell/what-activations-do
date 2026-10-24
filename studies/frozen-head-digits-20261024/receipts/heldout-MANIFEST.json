@@ -1,0 +1,69 @@
+{
+  "files": {
+    "curves.json": {
+      "bytes": 2821075,
+      "sha256": "1d5a24954079d01610194aa7281a7a2af8a914c573b2042c779c7c1d1824f566"
+    },
+    "effects.npz": {
+      "bytes": 27882,
+      "sha256": "99c204cfc0f2a0d66a1c948adb4ca3ab563d87bc2ab6ee59c7683313c85ccc10"
+    },
+    "metadata.json": {
+      "bytes": 3144,
+      "sha256": "223d84bee04a8a078ffaf9e1d1bbecf44c45edc40cc9313b603ef039d6c40a63"
+    },
+    "resources.json": {
+      "bytes": 192,
+      "sha256": "e94ddcccb8a325d806444ee3d775e1c2735c155468b0d275a5c62676d1d1df6c"
+    },
+    "summary.json": {
+      "bytes": 3958,
+      "sha256": "fc5ed77d135c34d6f312eb452e5868efd58f1608a74cac22683558ac2c592016"
+    },
+    "test-101-A.npz": {
+      "bytes": 31352539,
+      "sha256": "b971b928b8e62f4baf561c0ad5c779bd0f199cc08ebd99fb707bdf85af16febe"
+    },
+    "test-101-B.npz": {
+      "bytes": 31238065,
+      "sha256": "2aa86647081f3698a035782b19ac0f436294f5f8bff3a8b35176d926a7d2a89d"
+    },
+    "test-211-A.npz": {
+      "bytes": 31405812,
+      "sha256": "0c62234682d363a4a37ed47852d417ed6d40630659187681bae52c2e4be9e15b"
+    },
+    "test-211-B.npz": {
+      "bytes": 31226828,
+      "sha256": "c73cd8377635c1ce231d6ec998f6d7d5c17497836c06638ab31ff30c55ba77fb"
+    },
+    "test-307-A.npz": {
+      "bytes": 31165187,
+      "sha256": "ba51fbfcdc815616dcad32e398be96012cfe64a53454493d462d473a3728fd4d"
+    },
+    "test-307-B.npz": {
+      "bytes": 31124172,
+      "sha256": "5562f067eb830c2a301259e51730e488f151b6a16b70b4562cfdfd79a37174f4"
+    },
+    "test-401-A.npz": {
+      "bytes": 31316238,
+      "sha256": "b76c0e1341841d9c51da1e8dc8cd4e249c213fe6a37aa0e782da04df4d15163f"
+    },
+    "test-401-B.npz": {
+      "bytes": 31146042,
+      "sha256": "a33bf0ec3c3fe24a992b819104274c62b61d35aed418ae049544015e2e7deea7"
+    },
+    "test-503-A.npz": {
+      "bytes": 31306015,
+      "sha256": "cb53309ec7fc8ce445fe722d2e8c0ff07ea0964546cc1bd9822d3a7978509fec"
+    },
+    "test-503-B.npz": {
+      "bytes": 31249020,
+      "sha256": "6224bee3203bf436dd6b6d0caded5155ee7e13d2874937ec0c5bd1cb70eed5ec"
+    },
+    "test-identity.npz": {
+      "bytes": 16505,
+      "sha256": "33b439f476297691ab264f511dec3c8f6badcf695f07e59710760d03b0870568"
+    }
+  },
+  "schema": 1
+}

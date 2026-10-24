@@ -1,0 +1,31 @@
+{
+  "status": "completed_and_independently_audited",
+  "parent_repository": "https://github.com/EastonSell/what-activations-do",
+  "base_commit": "baa500a5567b3845513edb52d9b241edbeb45bab",
+  "source_manifest_sha256": "10a4ea2c6083e5f248cd4cd211b83ec6530f71e9e11591df9ee2f1d4e7ebf117",
+  "training_manifest_sha256": "eee5fe23598de00c5960e2cae9557b7655401eeb0411a6553e3d80e96b771399",
+  "heldout_manifest_sha256": "0f4096e4ce89c6190f21a2c67ddb98f0233e0f735a7d9adbd820eec211fcc8f8",
+  "raw_retention": [
+    {
+      "archive": "frozen-head-study-source-checkpoint-20261024.tar.gz",
+      "sha256": "893039deeb6b4b4e70f4038b611d1df387c888d82501644682528ef877dba43c",
+      "size_bytes": 32134,
+      "full_durable_storage_readback": "verified"
+    },
+    {
+      "archive": "frozen-head-study-training-20261024-1813.tar.gz",
+      "sha256": "79f4f5e467e65bc8e0571e9f68414b03f9deb54e2067fc2988537422050cd548",
+      "size_bytes": 3649239,
+      "full_durable_storage_readback": "verified"
+    },
+    {
+      "archive": "frozen-head-study-heldout-20261024-1818.tar",
+      "sha256": "74843384a96f893b7c91d86f438a38cd02e37f26c18c5813c3a762a2692a2358",
+      "size_bytes": 315422720,
+      "full_durable_storage_readback": "verified"
+    }
+  ],
+  "raw_availability": "Owner-retained archives, not included in this compact publication. Hashes identify bytes but are not public download links. Full raw arrays are required to independently rescore all logits.",
+  "secondary_comparison": "INELIGIBLE: validation competence gate failed; no learning-specific conclusion",
+  "publication_package_scope": "Unchanged frozen source, report, dense curves and audit receipts; no private storage identifiers or credentials."
+}

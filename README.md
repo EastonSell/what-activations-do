@@ -9,6 +9,7 @@ The work moves from controlled vector examples to learned digit features and a p
 - [Explore a small geometry example](docs/START_HERE.md), including why moving the origin differs from deleting directions.
 - [Read the research overview](docs/RESEARCH_OVERVIEW.md) for hypotheses, methods, related work and next tests.
 - [Inspect the copy-target interchange study](studies/copy-activation-interchange/README.md) and its [full report](studies/copy-activation-interchange/report/REPORT.md).
+- [Inspect the frozen-head digit ablation](studies/frozen-head-digits-20261024/README.md): completed norm-matched perturbation study, with its [result and limitations](studies/frozen-head-digits-20261024/report/RESULTS.md). The trained-versus-random comparison failed its competence gate.
 - [Use SETUP.md](SETUP.md) for the original experiments; later studies have separate setup and evidence instructions.
 
 ## Watch the narrated explanation

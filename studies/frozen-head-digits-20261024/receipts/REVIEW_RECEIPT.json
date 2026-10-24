@@ -1,0 +1,19 @@
+{
+  "source_review": {
+    "status": "PASS_TRAINING_ONLY",
+    "review_sha256": "29c38f3edcee3fd35e1df2563f39bbd1c260ea96f078c7ab76c7884669110c6d"
+  },
+  "training_review": {
+    "status": "PASS_PRIMARY_ELIGIBLE_SECONDARY_INELIGIBLE",
+    "review_sha256": "fb211674476b475a33e8b327b5d8789024a3b3f84593aab8d75a0e5d6c5a4788"
+  },
+  "heldout_review": {
+    "status": "PASS",
+    "review_sha256": "be9eebe1d4485188e32fb8a1ecfae6550b7803c4a0c0e33765b694d78a99d539",
+    "cells_verified": 10890,
+    "max_logit_error": 1.0658141036401503e-14
+  },
+  "read_only_cache_adapter_sha256": "3a62e5b923dffe7610dfac35a860a7ae0c2bd0adad1cad5ed7e9bc3468ed226c",
+  "direct_checker_original_sha256": "bdacbd9b924118af6f1ced52453205489a732a7c4786b3d59b6a091084477d5b",
+  "portable_direct_checker_changes": "Only CLI-supplied paths and exclusive output writing; numerical logic unchanged. Equality verification recorded separately."
+}

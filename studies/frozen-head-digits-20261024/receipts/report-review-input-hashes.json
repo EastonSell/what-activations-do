@@ -1,0 +1,61 @@
+{
+  "scope": "Reviewed report/package inputs, before final publication sealing. No publication permission conveyed.",
+  "files": {
+    "README.md": {
+      "sha256": "c6d88986bed02616f0c18eccee421f2d1863d5d74fb277e53e5345230520e1d2",
+      "bytes": 3357
+    },
+    "EVIDENCE.json": {
+      "sha256": "21daf2b14bbabf6349a65ae77663fce302f65caf049e5702e5d09326ee9b74df",
+      "bytes": 1709
+    },
+    "LICENSE": {
+      "sha256": "a3a13ccf366afe7793aae2e17b0ba5536e89a9b4d09cdbee1b6fff178b93e8e1",
+      "bytes": 1068
+    },
+    "report/RESULTS.md": {
+      "sha256": "b26160553645cc8049e55e1731c4ada893d6e1796b8821ed93b6891aac09b836",
+      "bytes": 9208
+    },
+    "report/frozen-head-curves.png": {
+      "sha256": "a4e9b7721f549236fcec7c99c9c1946989117b0a1baff3a7e4303b6d162cabc2",
+      "bytes": 177311
+    },
+    "report/frozen-head-curves.svg": {
+      "sha256": "5c3905e0daf0a8b28b73f6b233f143949e6ac3b43104c99b9a797fa0b3b8d054",
+      "bytes": 85346
+    },
+    "report/presentation-summary.json": {
+      "sha256": "72fb13709f3c896d7b567d0f9afdbe6a071aa0272ed3193071823250717d583c",
+      "bytes": 14538
+    },
+    "tools/direct_check.py": {
+      "sha256": "34de5f7aa7928bc4342184f555295d8e67f62823e25744eb95d8fdc870554fed",
+      "bytes": 6272
+    },
+    "tools/plot_curves.py": {
+      "sha256": "c4efc05634e74fb6a0cd553977aa9e566fade402c7589427267a4608dd463ccb",
+      "bytes": 3544
+    },
+    "tools/audit_cached.py": {
+      "sha256": "3a62e5b923dffe7610dfac35a860a7ae0c2bd0adad1cad5ed7e9bc3468ed226c",
+      "bytes": 2212
+    },
+    "tools/test_adapter.py": {
+      "sha256": "c4c1949861831144831a21f98aa1e9c45b537f124aad6fa06e116de88cdccfaf",
+      "bytes": 1656
+    },
+    "source/SOURCE_MANIFEST.json": {
+      "sha256": "10a4ea2c6083e5f248cd4cd211b83ec6530f71e9e11591df9ee2f1d4e7ebf117",
+      "bytes": 1926
+    },
+    "receipts/PORTABLE_CHECKER_VERIFICATION.json": {
+      "sha256": "62b0e30c9d24fa32acd98db78aece225a3c54362917be61736a45a5064f79ac1",
+      "bytes": 470
+    },
+    "receipts/REVIEW_RECEIPT.json": {
+      "sha256": "8100a45c80f1ee11809fc8a59e1bfa4d26849fe83c1a0b4e623d7c3f131b6fb7",
+      "bytes": 914
+    }
+  }
+}

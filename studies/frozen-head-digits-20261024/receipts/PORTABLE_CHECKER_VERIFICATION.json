@@ -1,0 +1,10 @@
+{
+  "full_result_equality": true,
+  "numerical_logic_changed": false,
+  "producer_rerun": false,
+  "portable_script_sha256": "34de5f7aa7928bc4342184f555295d8e67f62823e25744eb95d8fdc870554fed",
+  "portable_adapter_test_sha256": "c4c1949861831144831a21f98aa1e9c45b537f124aad6fa06e116de88cdccfaf",
+  "adapter_test_changes": "Only SOURCE path made package-relative; test logic unchanged.",
+  "portable_adapter_tests_passed": 2,
+  "packaged_frozen_source_tests_passed": 40
+}

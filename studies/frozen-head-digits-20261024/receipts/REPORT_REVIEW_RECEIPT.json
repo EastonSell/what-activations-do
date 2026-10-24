@@ -1,0 +1,10 @@
+{
+  "verdict": "PASS_SCIENTIFIC_REPORT_AND_PORTABILITY",
+  "report_sha256": "b26160553645cc8049e55e1731c4ada893d6e1796b8821ed93b6891aac09b836",
+  "report_review_sha256": "a8eb940e86ebc541250b7250dfc56199cc739c9426f57e8e558c40bcafb0c6f1",
+  "reviewed_input_manifest_sha256": "e0b05bb23dbed416817b81b1868ecb43136c2637527156e8cf3d1e656bd4b58d",
+  "scope": "Read-only completed-report, numerical, figure and portability review. Separate user authorization governs publication.",
+  "producer_rerun": false,
+  "frozen_source_changed": false,
+  "generated_bytecode_excluded": true
+}

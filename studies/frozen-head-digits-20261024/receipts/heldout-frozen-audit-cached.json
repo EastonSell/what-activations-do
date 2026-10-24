@@ -1,0 +1,44 @@
+{
+  "accepted": true,
+  "reconstructed_cells": 10890,
+  "max_logit_error": 1.0658141036401503e-14,
+  "primary": {
+    "mean": 1.3256401424455386,
+    "per_seed": [
+      1.3870759300502586,
+      1.4254276852820544,
+      1.3118839301944527,
+      1.2743478810342581,
+      1.2294652856666692
+    ],
+    "ci95": [
+      1.2468202975333147,
+      1.404319860037557
+    ]
+  },
+  "primary_decision": "supports_conditional_excess",
+  "secondary": {
+    "mean": 0.6757397872420726,
+    "per_seed": [
+      0.8330342327056305,
+      0.7174324950718957,
+      0.6144645914896307,
+      0.7574660206672948,
+      0.4563015962759112
+    ],
+    "ci95": [
+      0.612527867986875,
+      0.7376325687341413
+    ]
+  },
+  "comparison_eligible": false,
+  "dataset_sha256": "f6d9e39f37dc45d327f6db33428ee58970ccceabb2535a5c179de35886b70443",
+  "training_manifest_sha256": "eee5fe23598de00c5960e2cae9557b7655401eeb0411a6553e3d80e96b771399",
+  "limit": "Independent rescore/bootstrap and seeded provenance checks, not independent retraining; conditional reused-benchmark evidence",
+  "audit_execution": {
+    "adapter_sha256": "3a62e5b923dffe7610dfac35a860a7ae0c2bd0adad1cad5ed7e9bc3468ed226c",
+    "wall_seconds": 11.312422202998277,
+    "peak_rss_bytes": 144781312,
+    "scope": "Read-only decompression caching; frozen audit logic unchanged"
+  }
+}

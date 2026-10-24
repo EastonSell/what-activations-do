@@ -1,0 +1,100 @@
+{
+  "fit_count": 10,
+  "gates": {
+    "comparison_pass": false,
+    "primary_pass": true
+  },
+  "rows": [
+    {
+      "arm": "A",
+      "convergence": "not claimed; fixed epoch cap",
+      "epochs": 250,
+      "seed": 101,
+      "updates": 1500,
+      "validation_accuracy": 0.958217270194986,
+      "validation_ce": 0.12030202495172149
+    },
+    {
+      "arm": "B",
+      "convergence": "not claimed; fixed epoch cap",
+      "epochs": 250,
+      "seed": 101,
+      "updates": 1500,
+      "validation_accuracy": 0.7883008356545961,
+      "validation_ce": 1.1042780439237307
+    },
+    {
+      "arm": "A",
+      "convergence": "not claimed; fixed epoch cap",
+      "epochs": 250,
+      "seed": 211,
+      "updates": 1500,
+      "validation_accuracy": 0.9665738161559888,
+      "validation_ce": 0.10762426336828963
+    },
+    {
+      "arm": "B",
+      "convergence": "not claimed; fixed epoch cap",
+      "epochs": 250,
+      "seed": 211,
+      "updates": 1500,
+      "validation_accuracy": 0.8607242339832869,
+      "validation_ce": 0.8195063138517975
+    },
+    {
+      "arm": "A",
+      "convergence": "not claimed; fixed epoch cap",
+      "epochs": 250,
+      "seed": 307,
+      "updates": 1500,
+      "validation_accuracy": 0.9665738161559888,
+      "validation_ce": 0.10800228837205329
+    },
+    {
+      "arm": "B",
+      "convergence": "not claimed; fixed epoch cap",
+      "epochs": 250,
+      "seed": 307,
+      "updates": 1500,
+      "validation_accuracy": 0.8022284122562674,
+      "validation_ce": 0.9379872436133423
+    },
+    {
+      "arm": "A",
+      "convergence": "not claimed; fixed epoch cap",
+      "epochs": 250,
+      "seed": 401,
+      "updates": 1500,
+      "validation_accuracy": 0.9637883008356546,
+      "validation_ce": 0.1118417064675024
+    },
+    {
+      "arm": "B",
+      "convergence": "not claimed; fixed epoch cap",
+      "epochs": 250,
+      "seed": 401,
+      "updates": 1500,
+      "validation_accuracy": 0.7520891364902507,
+      "validation_ce": 1.0342153240101382
+    },
+    {
+      "arm": "A",
+      "convergence": "not claimed; fixed epoch cap",
+      "epochs": 250,
+      "seed": 503,
+      "updates": 1500,
+      "validation_accuracy": 0.9610027855153204,
+      "validation_ce": 0.10376542858858732
+    },
+    {
+      "arm": "B",
+      "convergence": "not claimed; fixed epoch cap",
+      "epochs": 250,
+      "seed": 503,
+      "updates": 1500,
+      "validation_accuracy": 0.8495821727019499,
+      "validation_ce": 0.7622216741936702
+    }
+  ],
+  "stage": "training"
+}

@@ -1,0 +1,6 @@
+{
+  "accounting": "single process including threads; not process-tree/kernel containment",
+  "retained_bytes": 4163211,
+  "rss_peak_bytes": 128962560,
+  "wall_seconds": 13.923361776998718
+}
