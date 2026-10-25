@@ -1,0 +1,107 @@
+{
+  "all_280_metric_rows_exact_csv_match": true,
+  "all_90_fit_rows_exact_csv_match": true,
+  "all_saved_validation_and_numerical_gates_pass": true,
+  "blocking_findings": [],
+  "confusion_matrix_counts_and_support_denominators_checked": true,
+  "counts_over_1800_seed_cases_not_independent_observations": {
+    "original-clean": 1750,
+    "original-pca8": 272,
+    "pca8": 758,
+    "untouched": 1721
+  },
+  "manifest_identity_checks": {
+    "heldout_audit_manifest_sha256": {
+      "array_files_stat_only": 0,
+      "hashed_payloads": 7
+    },
+    "heldout_manifest_sha256": {
+      "array_files_stat_only": 6,
+      "hashed_payloads": 12
+    },
+    "protocol_manifest_sha256": {
+      "array_files_stat_only": 0,
+      "hashed_payloads": 11
+    },
+    "source_manifest_sha256": {
+      "array_files_stat_only": 0,
+      "hashed_payloads": 35
+    },
+    "training_audit_manifest_sha256": {
+      "array_files_stat_only": 0,
+      "hashed_payloads": 7
+    },
+    "training_manifest_sha256": {
+      "array_files_stat_only": 16,
+      "hashed_payloads": 24
+    }
+  },
+  "no_arrays_archives_experiments_refits_or_bootstrap_run": true,
+  "per_seed_correct_counts_over_360": [
+    {
+      "original-clean": 348,
+      "original-pca8": 50,
+      "pca8": 155,
+      "seed": 101,
+      "untouched": 346
+    },
+    {
+      "original-clean": 352,
+      "original-pca8": 51,
+      "pca8": 153,
+      "seed": 211,
+      "untouched": 345
+    },
+    {
+      "original-clean": 348,
+      "original-pca8": 54,
+      "pca8": 128,
+      "seed": 307,
+      "untouched": 341
+    },
+    {
+      "original-clean": 350,
+      "original-pca8": 53,
+      "pca8": 166,
+      "seed": 401,
+      "untouched": 345
+    },
+    {
+      "original-clean": 352,
+      "original-pca8": 64,
+      "pca8": 156,
+      "seed": 503,
+      "untouched": 344
+    }
+  ],
+  "primary_gap_pp": -53.5,
+  "publication_authorized_by_review": false,
+  "random_correct_count_over_28800_seed_draw_cases": 27393,
+  "report_files": {
+    "ALL_CONDITION_METRICS.csv": {
+      "bytes": 21882,
+      "sha256": "9a005a4043500d65826c511f1897f77d9030bfdcf0cc55fc946813b36f733569"
+    },
+    "ALL_FIT_DIAGNOSTICS.csv": {
+      "bytes": 16978,
+      "sha256": "b1174cbb5205fcf820b9e145d283acf7ae0093b901002475bc7a42278988b007"
+    },
+    "RESULTS.json": {
+      "bytes": 10400,
+      "sha256": "29ecf13e124180fd32ce9ac73efe091e40ee51da0a4890b2aa6d9193185bac70"
+    },
+    "RESULTS.md": {
+      "bytes": 9339,
+      "sha256": "5ae4420110292b65962febecc422bb221511c5131c09b42258adfc610be46e5e"
+    },
+    "build_report.py": {
+      "bytes": 14051,
+      "sha256": "bf4a736fbfe31adbe6b6d25df949a56bd84a8af7f88f66696fb36ad7a7578cb1"
+    }
+  },
+  "review_scope": "Read-only report, source and sealed JSON inspection; summary-level arithmetic only. Array bytes were not read; prior independent inspections and sealed manifest entries provide array-evidence provenance. Source and non-array manifest payload bytes were freshly verified.",
+  "secondary_pca_minus_random_pp": -53.00347222222222,
+  "secondary_rescue_pp": 27.0,
+  "status": "PASS_report_accuracy_and_scope",
+  "unique_complete_condition_denominators": true
+}

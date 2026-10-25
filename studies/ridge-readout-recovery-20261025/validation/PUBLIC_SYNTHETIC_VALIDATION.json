@@ -1,0 +1,76 @@
+{
+  "all_nonvalidation_public_payloads_identical_after_tests": true,
+  "limits": "Test results concern the public derivative, not new independent acceptance of original arrays. Synthetic receipts are not original experimental resource evidence. Raw paths in saved logs are replaced with public location labels.",
+  "new_scientific_experiment": false,
+  "original_archives_accessed": false,
+  "public_protocol_manifest_sha256": "b11706ad6e1fd24224447ae509bf464fb4550d5e69249b820f83421b8b7ec76e",
+  "public_source_manifest_sha256": "f84581208f44f8a541bcd4fdeb59255a5db64958ad1d66f0f9b0ae8fcf2aa266",
+  "real_data_accessed": false,
+  "remote_or_network_action": false,
+  "runtime": {
+    "blas_threads_requested": 2,
+    "numpy": "2.3.5",
+    "platform": "Linux",
+    "python": "3.12.14",
+    "threadpoolctl": "3.6.0"
+  },
+  "schema": 1,
+  "scope": "Publication-preparation checks on a copy at a different absolute path and directory name; some commands launched from an unrelated current directory.",
+  "suites": [
+    {
+      "data_scope": "Invented synthetic arrays or existing public summary tables only; no real-array reads, original archives, experiment, fit or bootstrap on study data.",
+      "exit_code": 0,
+      "expected_tests": 12,
+      "log": "validation/public-package-synthetic-tests.txt",
+      "reported_seconds": 0.033,
+      "suite": "public-package",
+      "tests_run": 12
+    },
+    {
+      "data_scope": "Invented synthetic arrays or existing public summary tables only; no real-array reads, original archives, experiment, fit or bootstrap on study data.",
+      "exit_code": 0,
+      "expected_tests": 88,
+      "log": "validation/runner-synthetic-tests.txt",
+      "reported_seconds": 13.959,
+      "suite": "runner",
+      "tests_run": 88
+    },
+    {
+      "data_scope": "Invented synthetic arrays or existing public summary tables only; no real-array reads, original archives, experiment, fit or bootstrap on study data.",
+      "exit_code": 0,
+      "expected_tests": 26,
+      "log": "validation/protocol-synthetic-tests.txt",
+      "reported_seconds": 0.108,
+      "suite": "protocol",
+      "tests_run": 26
+    },
+    {
+      "data_scope": "Invented synthetic arrays or existing public summary tables only; no real-array reads, original archives, experiment, fit or bootstrap on study data.",
+      "exit_code": 0,
+      "expected_tests": 25,
+      "log": "validation/independent-audit-synthetic-tests.txt",
+      "reported_seconds": 6.007,
+      "suite": "independent-audit",
+      "tests_run": 25
+    },
+    {
+      "data_scope": "Invented synthetic arrays or existing public summary tables only; no real-array reads, original archives, experiment, fit or bootstrap on study data.",
+      "exit_code": 0,
+      "expected_tests": 6,
+      "log": "validation/independent-custody-synthetic-tests.txt",
+      "reported_seconds": 1.623,
+      "suite": "independent-custody",
+      "tests_run": 6
+    },
+    {
+      "data_scope": "Invented synthetic arrays or existing public summary tables only; no real-array reads, original archives, experiment, fit or bootstrap on study data.",
+      "exit_code": 0,
+      "expected_tests": 5,
+      "log": "validation/independent-audit-operations-synthetic-tests.txt",
+      "reported_seconds": 2.126,
+      "suite": "independent-audit-operations",
+      "tests_run": 5
+    }
+  ],
+  "total_tests": 162
+}

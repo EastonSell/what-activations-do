@@ -1,0 +1,19 @@
+{
+  "initial_unmodified_copy": {
+    "expected_failures": 4,
+    "failed_checks": [
+      "private source paths/owner-qualified repository URLs still present",
+      "public source identity still equal to original",
+      "original source clearance still matches an unmodified original copy",
+      "original protocol clearance still matches an unmodified original copy"
+    ],
+    "tests": 8
+  },
+  "raw_initial_failure_log_not_included": "Original private path and owner-context snippets in expected failure traces were not copied into the public package. This is a factual test-history summary, not a replacement original log.",
+  "sanitized_derivative": {
+    "additional_public_summary_checks_passed": 4,
+    "initial_metadata_checks_passed": 8
+  },
+  "schema": 1,
+  "scope": "Metadata-only publication packaging regressions; no scientific experiment."
+}

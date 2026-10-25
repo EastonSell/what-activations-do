@@ -1,0 +1,12 @@
+Fresh public-derivative validation using a relocated checkout. Synthetic arrays or public tables only.
+
+test_budget_exhausted_before_child_does_not_launch (__main__.IndependentAuditOperations.test_budget_exhausted_before_child_does_not_launch) ... ok
+test_terminal_manifest_verification_in_budget (__main__.IndependentAuditOperations.test_terminal_manifest_verification_in_budget) ... ok
+test_real_input_mutation_after_child_rejected (__main__.IndependentAuditOperations.test_real_input_mutation_after_child_rejected) ... ok
+test_bound_clearance_mutation_after_child_rejected (__main__.IndependentAuditOperations.test_bound_clearance_mutation_after_child_rejected) ... ok
+test_audit_failure_evidence_cannot_claim_success (__main__.IndependentAuditOperations.test_audit_failure_evidence_cannot_claim_success) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 2.126s
+
+OK

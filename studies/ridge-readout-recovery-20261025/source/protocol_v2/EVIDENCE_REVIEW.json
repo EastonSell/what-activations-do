@@ -1,0 +1,24 @@
+{
+  "data_access": "No experiment dataset, checkpoint or owner-retained archive loaded. Published summary findings informed selection.",
+  "original_file_sha256": "50fd498b6c9177526a125e3f97fd542baa422450131435689e5e33a73fc14c45",
+  "redactions": "Owner-qualified URLs and unrelated project-selection sources/context omitted. Repository-relative paths and the relevant exact commit are retained.",
+  "reviewed_utc": "2026-10-24",
+  "search_coverage": "The original inspection checked the listed frozen-head study files at the exact commit. Its default-branch ridge/refit search returned no results; this is not proof of absence or scientific novelty. No new search was conducted for this derivative.",
+  "sources": [
+    {
+      "commit": "d5278434f34f8b0a9b7a3a0051875963737a6363",
+      "paths": [
+        "README.md",
+        "docs/real-data-results.md",
+        "studies/frozen-head-digits-20261024/report/RESULTS.md",
+        "studies/frozen-head-digits-20261024/source/PROTOCOL.md",
+        "studies/frozen-head-digits-20261024/source/core.py",
+        "studies/frozen-head-digits-20261024/source/pipeline.py",
+        "studies/frozen-head-digits-20261024/EVIDENCE.json",
+        "run_digits.py"
+      ],
+      "repository": "original frozen-head study repository"
+    }
+  ],
+  "status": "sanitized_public_derivative_of_historical_evidence_inspection"
+}

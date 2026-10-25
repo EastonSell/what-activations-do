@@ -1,0 +1,13 @@
+Fresh public-derivative validation using a relocated checkout. Synthetic arrays or public tables only.
+
+test_changed_training_manifest_rejected_before_test_read (__main__.CustodyReview.test_changed_training_manifest_rejected_before_test_read) ... ok
+test_inconsistent_watchdog_error_evidence_rejected (__main__.CustodyReview.test_inconsistent_watchdog_error_evidence_rejected) ... ok
+test_inconsistent_watchdog_failure_evidence_rejected (__main__.CustodyReview.test_inconsistent_watchdog_failure_evidence_rejected) ... ok
+test_midread_training_file_mutation_rejected (__main__.CustodyReview.test_midread_training_file_mutation_rejected) ... ok
+test_negative_sealed_elapsed_rejected (__main__.CustodyReview.test_negative_sealed_elapsed_rejected) ... ok
+test_terminal_verification_included_in_wall_budget (__main__.CustodyReview.test_terminal_verification_included_in_wall_budget) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 1.623s
+
+OK

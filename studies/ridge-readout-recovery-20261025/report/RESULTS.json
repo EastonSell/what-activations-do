@@ -1,0 +1,263 @@
+{
+  "executions": {
+    "heldout": 1,
+    "heldout_audit": 1,
+    "training": 1,
+    "training_audit": 1
+  },
+  "fitted_readouts": 90,
+  "heldout_audit_manifest_sha256": "6f30e1924d377b9deb133e06f244d8d373682c9ea56265084533332fba73986a",
+  "heldout_manifest_sha256": "b87755cc1b1a1ad1b32a2741979554122488446052a00bfac375334539f80a1f",
+  "mean_accuracy": {
+    "original-clean": 0.9722222222222221,
+    "original-pca8": 0.1511111111111111,
+    "pca8": 0.4211111111111111,
+    "untouched": 0.9561111111111111
+  },
+  "mean_pca8_refit_minus_original_pca8_pp": 27.0,
+  "mean_pca8_refit_minus_random8_mean_pp": -53.00347222222223,
+  "mean_random8_ridge_accuracy": 0.9511458333333334,
+  "per_seed": [
+    {
+      "original_clean_accuracy": 0.9666666666666667,
+      "original_pca8_accuracy": 0.1388888888888889,
+      "pca8_numerical_train_rank": 22,
+      "pca8_removed_training_variance_fraction": 0.9323318389725813,
+      "pca8_ridge_accuracy": 0.4305555555555556,
+      "pca8_test_support": {
+        "case_denominator": 360,
+        "coordinate_denominator": 11520,
+        "material_any_negative_case_count": 29,
+        "material_any_negative_case_fraction": 0.08055555555555556,
+        "material_negative_coordinate_count": 35,
+        "material_negative_coordinate_fraction": 0.0030381944444444445,
+        "material_threshold": -1e-10,
+        "scope": "ReLU nonnegativity proxy only, not a guarantee of natural activation support",
+        "strict_any_negative_case_count": 182,
+        "strict_any_negative_case_fraction": 0.5055555555555555,
+        "strict_negative_coordinate_count": 200,
+        "strict_negative_coordinate_fraction": 0.017361111111111112
+      },
+      "primary_gap_pp": -53.05555555555556,
+      "random8_mean_removed_training_variance_fraction": 0.2397496108398608,
+      "random8_numerical_train_ranks": [
+        24
+      ],
+      "random8_ridge_mean_accuracy": 0.9526041666666667,
+      "seed": 101,
+      "untouched_numerical_train_rank": 30,
+      "untouched_ridge_accuracy": 0.9611111111111111
+    },
+    {
+      "original_clean_accuracy": 0.9777777777777777,
+      "original_pca8_accuracy": 0.14166666666666666,
+      "pca8_numerical_train_rank": 22,
+      "pca8_removed_training_variance_fraction": 0.9363224169606982,
+      "pca8_ridge_accuracy": 0.425,
+      "pca8_test_support": {
+        "case_denominator": 360,
+        "coordinate_denominator": 11520,
+        "material_any_negative_case_count": 39,
+        "material_any_negative_case_fraction": 0.10833333333333334,
+        "material_negative_coordinate_count": 42,
+        "material_negative_coordinate_fraction": 0.0036458333333333334,
+        "material_threshold": -1e-10,
+        "scope": "ReLU nonnegativity proxy only, not a guarantee of natural activation support",
+        "strict_any_negative_case_count": 188,
+        "strict_any_negative_case_fraction": 0.5222222222222223,
+        "strict_negative_coordinate_count": 203,
+        "strict_negative_coordinate_fraction": 0.017621527777777778
+      },
+      "primary_gap_pp": -53.33333333333334,
+      "random8_mean_removed_training_variance_fraction": 0.24413848604984642,
+      "random8_numerical_train_ranks": [
+        24
+      ],
+      "random8_ridge_mean_accuracy": 0.9491319444444445,
+      "seed": 211,
+      "untouched_numerical_train_rank": 30,
+      "untouched_ridge_accuracy": 0.9583333333333334
+    },
+    {
+      "original_clean_accuracy": 0.9666666666666667,
+      "original_pca8_accuracy": 0.15,
+      "pca8_numerical_train_rank": 20,
+      "pca8_removed_training_variance_fraction": 0.9306583360015152,
+      "pca8_ridge_accuracy": 0.35555555555555557,
+      "pca8_test_support": {
+        "case_denominator": 360,
+        "coordinate_denominator": 11520,
+        "material_any_negative_case_count": 55,
+        "material_any_negative_case_fraction": 0.1527777777777778,
+        "material_negative_coordinate_count": 55,
+        "material_negative_coordinate_fraction": 0.004774305555555556,
+        "material_threshold": -1e-10,
+        "scope": "ReLU nonnegativity proxy only, not a guarantee of natural activation support",
+        "strict_any_negative_case_count": 317,
+        "strict_any_negative_case_fraction": 0.8805555555555555,
+        "strict_negative_coordinate_count": 784,
+        "strict_negative_coordinate_fraction": 0.06805555555555555
+      },
+      "primary_gap_pp": -59.16666666666666,
+      "random8_mean_removed_training_variance_fraction": 0.2558765882567623,
+      "random8_numerical_train_ranks": [
+        24
+      ],
+      "random8_ridge_mean_accuracy": 0.9442708333333333,
+      "seed": 307,
+      "untouched_numerical_train_rank": 28,
+      "untouched_ridge_accuracy": 0.9472222222222222
+    },
+    {
+      "original_clean_accuracy": 0.9722222222222222,
+      "original_pca8_accuracy": 0.14722222222222223,
+      "pca8_numerical_train_rank": 21,
+      "pca8_removed_training_variance_fraction": 0.9274285998048283,
+      "pca8_ridge_accuracy": 0.46111111111111114,
+      "pca8_test_support": {
+        "case_denominator": 360,
+        "coordinate_denominator": 11520,
+        "material_any_negative_case_count": 163,
+        "material_any_negative_case_fraction": 0.4527777777777778,
+        "material_negative_coordinate_count": 171,
+        "material_negative_coordinate_fraction": 0.01484375,
+        "material_threshold": -1e-10,
+        "scope": "ReLU nonnegativity proxy only, not a guarantee of natural activation support",
+        "strict_any_negative_case_count": 321,
+        "strict_any_negative_case_fraction": 0.8916666666666667,
+        "strict_negative_coordinate_count": 702,
+        "strict_negative_coordinate_fraction": 0.0609375
+      },
+      "primary_gap_pp": -49.72222222222222,
+      "random8_mean_removed_training_variance_fraction": 0.25816385324588814,
+      "random8_numerical_train_ranks": [
+        24
+      ],
+      "random8_ridge_mean_accuracy": 0.9581597222222222,
+      "seed": 401,
+      "untouched_numerical_train_rank": 29,
+      "untouched_ridge_accuracy": 0.9583333333333334
+    },
+    {
+      "original_clean_accuracy": 0.9777777777777777,
+      "original_pca8_accuracy": 0.17777777777777778,
+      "pca8_numerical_train_rank": 22,
+      "pca8_removed_training_variance_fraction": 0.9247890625167345,
+      "pca8_ridge_accuracy": 0.43333333333333335,
+      "pca8_test_support": {
+        "case_denominator": 360,
+        "coordinate_denominator": 11520,
+        "material_any_negative_case_count": 100,
+        "material_any_negative_case_fraction": 0.2777777777777778,
+        "material_negative_coordinate_count": 106,
+        "material_negative_coordinate_fraction": 0.00920138888888889,
+        "material_threshold": -1e-10,
+        "scope": "ReLU nonnegativity proxy only, not a guarantee of natural activation support",
+        "strict_any_negative_case_count": 239,
+        "strict_any_negative_case_fraction": 0.6638888888888889,
+        "strict_negative_coordinate_count": 287,
+        "strict_negative_coordinate_fraction": 0.024913194444444446
+      },
+      "primary_gap_pp": -52.22222222222223,
+      "random8_mean_removed_training_variance_fraction": 0.25573698746693885,
+      "random8_numerical_train_ranks": [
+        24
+      ],
+      "random8_ridge_mean_accuracy": 0.9515625,
+      "seed": 503,
+      "untouched_numerical_train_rank": 30,
+      "untouched_ridge_accuracy": 0.9555555555555556
+    }
+  ],
+  "primary": {
+    "all_seed_deficits_within_5pp": false,
+    "bootstrap_draws": 10000,
+    "bootstrap_seed": 20261027,
+    "case_resampling_interval95_pp": [
+      -56.94444444444444,
+      -50.111111111111114
+    ],
+    "decision": "two_point_margin_not_met_by_sensitivity_rule",
+    "mean_pp": -53.5,
+    "per_seed_pp": [
+      -53.05555555555556,
+      -53.333333333333336,
+      -59.166666666666664,
+      -49.72222222222222,
+      -52.22222222222223
+    ],
+    "scope": "Descriptive case-resampling sensitivity only; no nominal coverage or calibrated noninferiority claim. Fixed historical models, split, rank and tested readout class; no writer or seed-population uncertainty.",
+    "status": "numerical_decision_only_requires_all_protocol_gates_and_independent_audit"
+  },
+  "protocol_manifest_sha256": "061e722fb16c8ac0962307094b713c974658f9a049ac070f9c8f9cdfe709595a",
+  "resources": [
+    {
+      "child_elapsed_seconds": 0.9279393190008705,
+      "elapsed_before_sealing_seconds": 0.9401886140003626,
+      "errors": [],
+      "peak_sampled_rss_bytes": 42569728,
+      "sealed_bytes": 14830953,
+      "stage": "Training",
+      "violations": []
+    },
+    {
+      "child_elapsed_seconds": 0.6741095840006892,
+      "elapsed_before_sealing_seconds": 0.77324567299911,
+      "errors": [],
+      "peak_sampled_rss_bytes": 42500096,
+      "sealed_bytes": 67846,
+      "stage": "Training audit",
+      "violations": []
+    },
+    {
+      "child_elapsed_seconds": 0.9249268620005751,
+      "elapsed_before_sealing_seconds": 0.9338773839990608,
+      "errors": [],
+      "peak_sampled_rss_bytes": 50126848,
+      "sealed_bytes": 3097130,
+      "stage": "Held-out evaluation",
+      "violations": []
+    },
+    {
+      "child_elapsed_seconds": 0.9618874070001766,
+      "elapsed_before_sealing_seconds": 1.0816261380005017,
+      "errors": [],
+      "peak_sampled_rss_bytes": 45006848,
+      "sealed_bytes": 94128,
+      "stage": "Held-out audit",
+      "violations": []
+    }
+  ],
+  "review_decisions_recorded_separately": true,
+  "scope": "Descriptive prospective fixed-analysis follow-up on historical representations and already exposed split/rank; not a fresh confirmatory holdout, calibrated interval, or information-loss proof.",
+  "source_manifest_sha256": "b169b28b144a511770743782e85f05ac008e09553e3845dab654a88e2604f528",
+  "status": "mechanically_audited_results",
+  "test_cases": 360,
+  "test_conditions": 100,
+  "training_audit_manifest_sha256": "00f2f6660dc7ae31e529ce2dd544275b00b828346d51f13ef0d529e82728c99b",
+  "training_manifest_sha256": "bf3d3ba9d24e4ab293d3a69e33421c79cf6c4f50dbc54e97f6b53e85b2481fe5",
+  "validation_gates": {
+    "eligible": true,
+    "per_seed_baseline_gap_pp": [
+      0.835654596100277,
+      -0.835654596100277,
+      -1.114206128133699,
+      0.0,
+      -1.1142061281337101
+    ],
+    "per_seed_comparability_pass": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "per_seed_floor_pass": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  }
+}

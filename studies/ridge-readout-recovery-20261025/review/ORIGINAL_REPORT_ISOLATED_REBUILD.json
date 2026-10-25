@@ -1,0 +1,21 @@
+{
+  "scope": "Exact supplied generator executed only with output directory redirected to review scratch. Summary-level report generation only; no arrays, original archives, experiments, refits, or resampling. Original source and report files were not edited.",
+  "files": {
+    "RESULTS.md": {
+      "byte_identical": true,
+      "sha256": "5ae4420110292b65962febecc422bb221511c5131c09b42258adfc610be46e5e"
+    },
+    "RESULTS.json": {
+      "byte_identical": true,
+      "sha256": "29ecf13e124180fd32ce9ac73efe091e40ee51da0a4890b2aa6d9193185bac70"
+    },
+    "ALL_CONDITION_METRICS.csv": {
+      "byte_identical": true,
+      "sha256": "9a005a4043500d65826c511f1897f77d9030bfdcf0cc55fc946813b36f733569"
+    },
+    "ALL_FIT_DIAGNOSTICS.csv": {
+      "byte_identical": true,
+      "sha256": "b1174cbb5205fcf820b9e145d283acf7ae0093b901002475bc7a42278988b007"
+    }
+  }
+}

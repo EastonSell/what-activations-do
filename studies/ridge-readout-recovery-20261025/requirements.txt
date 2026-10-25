@@ -1,0 +1,4 @@
+# Verified publication-test runtime: Python 3.12.14, Linux.
+# Dependencies are recorded, not installed by this package.
+numpy==2.3.5
+threadpoolctl==3.6.0

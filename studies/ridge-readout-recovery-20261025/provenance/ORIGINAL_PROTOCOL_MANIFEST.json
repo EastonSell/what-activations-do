@@ -1,0 +1,53 @@
+{
+  "status": "source_only_pending_independent_review_v2",
+  "real_data_accessed": false,
+  "real_data_runner_present": false,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "files": {
+    "PROTOCOL.md": {
+      "sha256": "e2c2f2b788aa0f1ded075d947636656bb62931c8564362a3b1cccee31eff9f7e",
+      "bytes": 14934
+    },
+    "README.md": {
+      "sha256": "878b47ecea306436e9178d09255c95efc3c4980348fa00249d2c62e478fea8fc",
+      "bytes": 2245
+    },
+    "EVIDENCE_REVIEW.json": {
+      "sha256": "50fd498b6c9177526a125e3f97fd542baa422450131435689e5e33a73fc14c45",
+      "bytes": 3947
+    },
+    "config.json": {
+      "sha256": "1641ec5953f6bac069186c42690dcb6f071acc6e454fc01c6cac7254fad26cdd",
+      "bytes": 1211
+    },
+    "readout.py": {
+      "sha256": "ee61f00b8e68617fd4875ba3e35eddacbcbff5c543a8e439ff34fb9ae06b03d1",
+      "bytes": 8921
+    },
+    "tests/test_readout.py": {
+      "sha256": "4d33d6f4e8bfe6bec048f3a721f775d530f2179c3cc43051ddb844ef5da6f653",
+      "bytes": 9117
+    },
+    "GREEN-tests.txt": {
+      "sha256": "9a1a5532a90eb933e0950ca9b67b4fd1239e018e9786feb693f4810498840794",
+      "bytes": 3042
+    },
+    "RED-tests.txt": {
+      "sha256": "cfac3c48d574d2f8e0bd0d854784f67c7c0f42857d413f9da4eb2618dd390394",
+      "bytes": 17504
+    },
+    "REVIEW-RED-tests.txt": {
+      "sha256": "3d11d49a01680d0e84aea0997ca86a2db959d9f414558a0da6549f31f5dc31d2",
+      "bytes": 8548
+    },
+    "SUPPORT-RED-tests.txt": {
+      "sha256": "68bc317dafdc35170c1fc70ea38ea75bff665f618f027fded987271465a46783",
+      "bytes": 4335
+    },
+    "REVIEW_CHANGES.md": {
+      "sha256": "309d1c02861e3d5aeb53d827081bcddef43938223d3f74694bdea0c763879cd7",
+      "bytes": 1645
+    }
+  }
+}

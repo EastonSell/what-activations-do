@@ -1,0 +1,111 @@
+SANITIZED HISTORICAL SYNTHETIC LOG: private workspace prefixes removed; test outcomes and remaining trace text unchanged.
+
+test_fit_matches_augmented_normal_equations (test_readout.KernelTests.test_fit_matches_augmented_normal_equations) ... ok
+test_full_deletion_zero (test_readout.KernelTests.test_full_deletion_zero) ... ok
+test_geometry_and_projection_overflow_rejected (test_readout.KernelTests.test_geometry_and_projection_overflow_rejected) ... /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/_core/_methods.py:134: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+FAIL
+test_identical_seed_basis (test_readout.KernelTests.test_identical_seed_basis) ... ok
+test_identity_projection (test_readout.KernelTests.test_identity_projection) ... ok
+test_input_arrays_not_mutated (test_readout.KernelTests.test_input_arrays_not_mutated) ... ok
+test_invalid_matrix_and_labels_rejected (test_readout.KernelTests.test_invalid_matrix_and_labels_rejected) ... ok
+test_nonorthogonal_basis_rejected (test_readout.KernelTests.test_nonorthogonal_basis_rejected) ... ok
+test_normal_equation_residual_defined_and_small (test_readout.KernelTests.test_normal_equation_residual_defined_and_small) ... ERROR
+test_prediction_overflow_rejected_before_argmax (test_readout.KernelTests.test_prediction_overflow_rejected_before_argmax) ... next-empirical-readout-recovery-20261024/readout.py:90: RuntimeWarning: overflow encountered in matmul
+  return x@w+b
+FAIL
+test_projection_orthogonality_and_rank (test_readout.KernelTests.test_projection_orthogonality_and_rank) ... ok
+test_ridge_intermediate_overflow_rejected (test_readout.KernelTests.test_ridge_intermediate_overflow_rejected) ... next-empirical-readout-recovery-20261024/readout.py:67: RuntimeWarning: overflow encountered in matmul
+  gram = xc.T@xc + len(x)*penalty*np.eye(x.shape[1])
+FAIL
+test_ridge_stationarity (test_readout.KernelTests.test_ridge_stationarity) ... ok
+test_rotation_equivariance (test_readout.KernelTests.test_rotation_equivariance) ... ok
+test_training_mean_only (test_readout.KernelTests.test_training_mean_only) ... ok
+test_translation_equivariance (test_readout.KernelTests.test_translation_equivariance) ... ok
+test_zero_features_give_class_priors (test_readout.KernelTests.test_zero_features_give_class_priors) ... ok
+test_exact_case_pairing_not_independent_arm_bootstrap (test_readout.ScientificChecks.test_exact_case_pairing_not_independent_arm_bootstrap) ... ERROR
+test_gates_reject_one_failed_seed_without_dropping (test_readout.ScientificChecks.test_gates_reject_one_failed_seed_without_dropping) ... ok
+test_primary_adverse_direction_and_denominator (test_readout.ScientificChecks.test_primary_adverse_direction_and_denominator) ... FAIL
+test_primary_null_has_zero_interval (test_readout.ScientificChecks.test_primary_null_has_zero_interval) ... ERROR
+test_redundant_signal_recovers_after_changed_readout (test_readout.ScientificChecks.test_redundant_signal_recovers_after_changed_readout) ... ok
+test_seed_gate_blocks_averaged_success (test_readout.ScientificChecks.test_seed_gate_blocks_averaged_success) ... ERROR
+test_unique_signal_is_not_recoverable_by_readout (test_readout.ScientificChecks.test_unique_signal_is_not_recoverable_by_readout) ... ok
+
+======================================================================
+ERROR: test_normal_equation_residual_defined_and_small (test_readout.KernelTests.test_normal_equation_residual_defined_and_small)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "next-empirical-readout-recovery-20261024/tests/test_readout.py", line 55, in test_normal_equation_residual_defined_and_small
+    self.assertEqual(fit['normal_equation_relative_max_abs'], expected)
+                     ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'normal_equation_relative_max_abs'
+
+======================================================================
+ERROR: test_exact_case_pairing_not_independent_arm_bootstrap (test_readout.ScientificChecks.test_exact_case_pairing_not_independent_arm_bootstrap)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "next-empirical-readout-recovery-20261024/tests/test_readout.py", line 170, in test_exact_case_pairing_not_independent_arm_bootstrap
+    self.assertEqual(result['case_resampling_interval95_pp'], [0., 0.])
+                     ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'case_resampling_interval95_pp'
+
+======================================================================
+ERROR: test_primary_null_has_zero_interval (test_readout.ScientificChecks.test_primary_null_has_zero_interval)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "next-empirical-readout-recovery-20261024/tests/test_readout.py", line 148, in test_primary_null_has_zero_interval
+    self.assertEqual(r['case_resampling_interval95_pp'], [0., 0.])
+                     ~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'case_resampling_interval95_pp'
+
+======================================================================
+ERROR: test_seed_gate_blocks_averaged_success (test_readout.ScientificChecks.test_seed_gate_blocks_averaged_success)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "next-empirical-readout-recovery-20261024/tests/test_readout.py", line 164, in test_seed_gate_blocks_averaged_success
+    self.assertGreater(r['case_resampling_interval95_pp'][0], -2)
+                       ~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'case_resampling_interval95_pp'
+
+======================================================================
+FAIL: test_geometry_and_projection_overflow_rejected (test_readout.KernelTests.test_geometry_and_projection_overflow_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "next-empirical-readout-recovery-20261024/tests/test_readout.py", line 70, in test_geometry_and_projection_overflow_rejected
+    with self.assertRaises(FloatingPointError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: FloatingPointError not raised
+
+======================================================================
+FAIL: test_prediction_overflow_rejected_before_argmax (test_readout.KernelTests.test_prediction_overflow_rejected_before_argmax)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "next-empirical-readout-recovery-20261024/tests/test_readout.py", line 60, in test_prediction_overflow_rejected_before_argmax
+    with self.assertRaises(FloatingPointError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: FloatingPointError not raised
+
+======================================================================
+FAIL: test_ridge_intermediate_overflow_rejected (test_readout.KernelTests.test_ridge_intermediate_overflow_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "next-empirical-readout-recovery-20261024/tests/test_readout.py", line 66, in test_ridge_intermediate_overflow_rejected
+    with self.assertRaises(FloatingPointError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: FloatingPointError not raised
+
+======================================================================
+FAIL: test_primary_adverse_direction_and_denominator (test_readout.ScientificChecks.test_primary_adverse_direction_and_denominator)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "next-empirical-readout-recovery-20261024/tests/test_readout.py", line 156, in test_primary_adverse_direction_and_denominator
+    self.assertEqual(r['decision'], 'two_point_margin_not_met_by_sensitivity_rule')
+AssertionError: 'two_point_near_recovery_excluded_for_tested_readout' != 'two_point_margin_not_met_by_sensitivity_rule'
+- two_point_near_recovery_excluded_for_tested_readout
++ two_point_margin_not_met_by_sensitivity_rule
+
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.106s
+
+FAILED (failures=4, errors=4)

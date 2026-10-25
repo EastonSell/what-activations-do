@@ -1,0 +1,247 @@
+SANITIZED HISTORICAL SYNTHETIC LOG: private workspace prefixes removed; test outcomes and remaining trace text unchanged.
+
+test_fit_matches_augmented_normal_equations (test_readout.KernelTests.test_fit_matches_augmented_normal_equations) ... ERROR
+test_full_deletion_zero (test_readout.KernelTests.test_full_deletion_zero) ... ERROR
+test_identical_seed_basis (test_readout.KernelTests.test_identical_seed_basis) ... ERROR
+test_identity_projection (test_readout.KernelTests.test_identity_projection) ... ERROR
+test_input_arrays_not_mutated (test_readout.KernelTests.test_input_arrays_not_mutated) ... ERROR
+test_invalid_matrix_and_labels_rejected (test_readout.KernelTests.test_invalid_matrix_and_labels_rejected) ... ERROR
+test_nonorthogonal_basis_rejected (test_readout.KernelTests.test_nonorthogonal_basis_rejected) ... ERROR
+test_projection_orthogonality_and_rank (test_readout.KernelTests.test_projection_orthogonality_and_rank) ... ERROR
+test_ridge_stationarity (test_readout.KernelTests.test_ridge_stationarity) ... ERROR
+test_rotation_equivariance (test_readout.KernelTests.test_rotation_equivariance) ... ERROR
+test_training_mean_only (test_readout.KernelTests.test_training_mean_only) ... ERROR
+test_translation_equivariance (test_readout.KernelTests.test_translation_equivariance) ... ERROR
+test_zero_features_give_class_priors (test_readout.KernelTests.test_zero_features_give_class_priors) ... ERROR
+test_exact_case_pairing_not_independent_arm_bootstrap (test_readout.ScientificChecks.test_exact_case_pairing_not_independent_arm_bootstrap) ... ERROR
+test_gates_reject_one_failed_seed_without_dropping (test_readout.ScientificChecks.test_gates_reject_one_failed_seed_without_dropping) ... ERROR
+test_primary_adverse_direction_and_denominator (test_readout.ScientificChecks.test_primary_adverse_direction_and_denominator) ... ERROR
+test_primary_null_has_zero_interval (test_readout.ScientificChecks.test_primary_null_has_zero_interval) ... ERROR
+test_redundant_signal_recovers_after_changed_readout (test_readout.ScientificChecks.test_redundant_signal_recovers_after_changed_readout) ... ERROR
+test_seed_gate_blocks_averaged_success (test_readout.ScientificChecks.test_seed_gate_blocks_averaged_success) ... ERROR
+test_unique_signal_is_not_recoverable_by_readout (test_readout.ScientificChecks.test_unique_signal_is_not_recoverable_by_readout) ... ERROR
+
+======================================================================
+ERROR: test_fit_matches_augmented_normal_equations (test_readout.KernelTests.test_fit_matches_augmented_normal_equations)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "next-empirical-readout-recovery-20261024/tests/test_readout.py", line 33, in test_fit_matches_augmented_normal_equations
+    fit = readout.ridge(x, self.y, 3, .01)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "next-empirical-readout-recovery-20261024/readout.py", line 10, in ridge
+    raise NotImplementedError('ridge not implemented')
+NotImplementedError: ridge not implemented
+
+======================================================================
+ERROR: test_full_deletion_zero (test_readout.KernelTests.test_full_deletion_zero)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "next-empirical-readout-recovery-20261024/tests/test_readout.py", line 17, in test_full_deletion_zero
+    mu, basis = readout.geometry(self.h)
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "next-empirical-readout-recovery-20261024/readout.py", line 4, in geometry
+    raise NotImplementedError('train-only geometry not implemented')
+NotImplementedError: train-only geometry not implemented
+
+======================================================================
+ERROR: test_identical_seed_basis (test_readout.KernelTests.test_identical_seed_basis)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "next-empirical-readout-recovery-20261024/tests/test_readout.py", line 75, in test_identical_seed_basis
+    a, b = readout.random_basis(101, 4, 8), readout.random_basis(101, 4, 8)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "next-empirical-readout-recovery-20261024/readout.py", line 16, in random_basis
+    raise NotImplementedError('random basis not implemented')
+NotImplementedError: random basis not implemented
+
+======================================================================
+ERROR: test_identity_projection (test_readout.KernelTests.test_identity_projection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "next-empirical-readout-recovery-20261024/tests/test_readout.py", line 13, in test_identity_projection
+    mu, basis = readout.geometry(self.h)
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "next-empirical-readout-recovery-20261024/readout.py", line 4, in geometry
+    raise NotImplementedError('train-only geometry not implemented')
+NotImplementedError: train-only geometry not implemented
+
+======================================================================
+ERROR: test_input_arrays_not_mutated (test_readout.KernelTests.test_input_arrays_not_mutated)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "next-empirical-readout-recovery-20261024/tests/test_readout.py", line 69, in test_input_arrays_not_mutated
+    mu, basis = readout.geometry(h)
+                ^^^^^^^^^^^^^^^^^^^
+  File "next-empirical-readout-recovery-20261024/readout.py", line 4, in geometry
+    raise NotImplementedError('train-only geometry not implemented')
+NotImplementedError: train-only geometry not implemented
+
+======================================================================
+ERROR: test_invalid_matrix_and_labels_rejected (test_readout.KernelTests.test_invalid_matrix_and_labels_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "next-empirical-readout-recovery-20261024/tests/test_readout.py", line 82, in test_invalid_matrix_and_labels_rejected
+    with self.assertRaises(ValueError): readout.geometry(bad)
+                                        ^^^^^^^^^^^^^^^^^^^^^
+  File "next-empirical-readout-recovery-20261024/readout.py", line 4, in geometry
+    raise NotImplementedError('train-only geometry not implemented')
+NotImplementedError: train-only geometry not implemented
+
+======================================================================
+ERROR: test_nonorthogonal_basis_rejected (test_readout.KernelTests.test_nonorthogonal_basis_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "next-empirical-readout-recovery-20261024/tests/test_readout.py", line 88, in test_nonorthogonal_basis_rejected
+    mu, basis = readout.geometry(self.h)
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "next-empirical-readout-recovery-20261024/readout.py", line 4, in geometry
+    raise NotImplementedError('train-only geometry not implemented')
+NotImplementedError: train-only geometry not implemented
+
+======================================================================
+ERROR: test_projection_orthogonality_and_rank (test_readout.KernelTests.test_projection_orthogonality_and_rank)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "next-empirical-readout-recovery-20261024/tests/test_readout.py", line 21, in test_projection_orthogonality_and_rank
+    mu, basis = readout.geometry(self.h)
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "next-empirical-readout-recovery-20261024/readout.py", line 4, in geometry
+    raise NotImplementedError('train-only geometry not implemented')
+NotImplementedError: train-only geometry not implemented
+
+======================================================================
+ERROR: test_ridge_stationarity (test_readout.KernelTests.test_ridge_stationarity)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "next-empirical-readout-recovery-20261024/tests/test_readout.py", line 42, in test_ridge_stationarity
+    fit = readout.ridge(self.h, self.y, 3, .01)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "next-empirical-readout-recovery-20261024/readout.py", line 10, in ridge
+    raise NotImplementedError('ridge not implemented')
+NotImplementedError: ridge not implemented
+
+======================================================================
+ERROR: test_rotation_equivariance (test_readout.KernelTests.test_rotation_equivariance)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "next-empirical-readout-recovery-20261024/tests/test_readout.py", line 55, in test_rotation_equivariance
+    q = readout.random_basis(101, 0, 8)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "next-empirical-readout-recovery-20261024/readout.py", line 16, in random_basis
+    raise NotImplementedError('random basis not implemented')
+NotImplementedError: random basis not implemented
+
+======================================================================
+ERROR: test_training_mean_only (test_readout.KernelTests.test_training_mean_only)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "next-empirical-readout-recovery-20261024/tests/test_readout.py", line 27, in test_training_mean_only
+    mu, basis = readout.geometry(self.h)
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "next-empirical-readout-recovery-20261024/readout.py", line 4, in geometry
+    raise NotImplementedError('train-only geometry not implemented')
+NotImplementedError: train-only geometry not implemented
+
+======================================================================
+ERROR: test_translation_equivariance (test_readout.KernelTests.test_translation_equivariance)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "next-empirical-readout-recovery-20261024/tests/test_readout.py", line 49, in test_translation_equivariance
+    base = readout.ridge(self.h, self.y, 3, .01)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "next-empirical-readout-recovery-20261024/readout.py", line 10, in ridge
+    raise NotImplementedError('ridge not implemented')
+NotImplementedError: ridge not implemented
+
+======================================================================
+ERROR: test_zero_features_give_class_priors (test_readout.KernelTests.test_zero_features_give_class_priors)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "next-empirical-readout-recovery-20261024/tests/test_readout.py", line 63, in test_zero_features_give_class_priors
+    fit = readout.ridge(np.zeros((4, 8)), y, 3, .01)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "next-empirical-readout-recovery-20261024/readout.py", line 10, in ridge
+    raise NotImplementedError('ridge not implemented')
+NotImplementedError: ridge not implemented
+
+======================================================================
+ERROR: test_exact_case_pairing_not_independent_arm_bootstrap (test_readout.ScientificChecks.test_exact_case_pairing_not_independent_arm_bootstrap)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "next-empirical-readout-recovery-20261024/tests/test_readout.py", line 142, in test_exact_case_pairing_not_independent_arm_bootstrap
+    result = readout.primary(a, a)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "next-empirical-readout-recovery-20261024/readout.py", line 25, in primary
+    raise NotImplementedError('primary not implemented')
+NotImplementedError: primary not implemented
+
+======================================================================
+ERROR: test_gates_reject_one_failed_seed_without_dropping (test_readout.ScientificChecks.test_gates_reject_one_failed_seed_without_dropping)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "next-empirical-readout-recovery-20261024/tests/test_readout.py", line 114, in test_gates_reject_one_failed_seed_without_dropping
+    self.assertTrue(readout.eligibility(original, np.full(5, .95))['eligible'])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "next-empirical-readout-recovery-20261024/readout.py", line 22, in eligibility
+    raise NotImplementedError('gates not implemented')
+NotImplementedError: gates not implemented
+
+======================================================================
+ERROR: test_primary_adverse_direction_and_denominator (test_readout.ScientificChecks.test_primary_adverse_direction_and_denominator)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "next-empirical-readout-recovery-20261024/tests/test_readout.py", line 127, in test_primary_adverse_direction_and_denominator
+    r = readout.primary(pca, base)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "next-empirical-readout-recovery-20261024/readout.py", line 25, in primary
+    raise NotImplementedError('primary not implemented')
+NotImplementedError: primary not implemented
+
+======================================================================
+ERROR: test_primary_null_has_zero_interval (test_readout.ScientificChecks.test_primary_null_has_zero_interval)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "next-empirical-readout-recovery-20261024/tests/test_readout.py", line 119, in test_primary_null_has_zero_interval
+    r = readout.primary(a, a)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "next-empirical-readout-recovery-20261024/readout.py", line 25, in primary
+    raise NotImplementedError('primary not implemented')
+NotImplementedError: primary not implemented
+
+======================================================================
+ERROR: test_redundant_signal_recovers_after_changed_readout (test_readout.ScientificChecks.test_redundant_signal_recovers_after_changed_readout)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "next-empirical-readout-recovery-20261024/tests/test_readout.py", line 99, in test_redundant_signal_recovers_after_changed_readout
+    z = readout.project(h, np.zeros(2), np.eye(2), 1)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "next-empirical-readout-recovery-20261024/readout.py", line 7, in project
+    raise NotImplementedError('projection not implemented')
+NotImplementedError: projection not implemented
+
+======================================================================
+ERROR: test_seed_gate_blocks_averaged_success (test_readout.ScientificChecks.test_seed_gate_blocks_averaged_success)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "next-empirical-readout-recovery-20261024/tests/test_readout.py", line 136, in test_seed_gate_blocks_averaged_success
+    r = readout.primary(pca, base)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "next-empirical-readout-recovery-20261024/readout.py", line 25, in primary
+    raise NotImplementedError('primary not implemented')
+NotImplementedError: primary not implemented
+
+======================================================================
+ERROR: test_unique_signal_is_not_recoverable_by_readout (test_readout.ScientificChecks.test_unique_signal_is_not_recoverable_by_readout)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "next-empirical-readout-recovery-20261024/tests/test_readout.py", line 108, in test_unique_signal_is_not_recoverable_by_readout
+    z = readout.project(h, np.zeros(2), np.eye(2), 1)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "next-empirical-readout-recovery-20261024/readout.py", line 7, in project
+    raise NotImplementedError('projection not implemented')
+NotImplementedError: projection not implemented
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.019s
+
+FAILED (errors=20)

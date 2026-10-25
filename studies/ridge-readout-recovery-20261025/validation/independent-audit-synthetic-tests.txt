@@ -1,0 +1,32 @@
+Fresh public-derivative validation using a relocated checkout. Synthetic arrays or public tables only.
+
+test_independent_completion_pending (__main__.IndependentAuditTests.test_independent_completion_pending) ... ok
+test_independent_condition_name_reorder (__main__.IndependentAuditTests.test_independent_condition_name_reorder) ... ok
+test_independent_confusion_metric (__main__.IndependentAuditTests.test_independent_confusion_metric) ... ok
+test_independent_control_draw_swap (__main__.IndependentAuditTests.test_independent_control_draw_swap) ... ok
+test_independent_correctness_boolean (__main__.IndependentAuditTests.test_independent_correctness_boolean) ... ok
+test_independent_dataset_hash_after_identity_rebind (__main__.IndependentAuditTests.test_independent_dataset_hash_after_identity_rebind) ... ok
+test_independent_head_normal_equation_gate (__main__.IndependentAuditTests.test_independent_head_normal_equation_gate) ... ok
+test_independent_intercept (__main__.IndependentAuditTests.test_independent_intercept) ... ok
+test_independent_invalid_proportion_domain (__main__.IndependentAuditTests.test_independent_invalid_proportion_domain) ... ok
+test_independent_lower_precision_score (__main__.IndependentAuditTests.test_independent_lower_precision_score) ... ok
+test_independent_missing_historical_identity (__main__.IndependentAuditTests.test_independent_missing_historical_identity) ... ok
+test_independent_nan_score (__main__.IndependentAuditTests.test_independent_nan_score) ... ok
+test_independent_negative_equation_domain (__main__.IndependentAuditTests.test_independent_negative_equation_domain) ... ok
+test_independent_no_hidden_evidence_writes (__main__.IndependentAuditTests.test_independent_no_hidden_evidence_writes) ... ok
+test_independent_primary_bootstrap_seed_claim (__main__.IndependentAuditTests.test_independent_primary_bootstrap_seed_claim) ... ok
+test_independent_primary_interval_claim (__main__.IndependentAuditTests.test_independent_primary_interval_claim) ... ok
+test_independent_primary_scope_claim (__main__.IndependentAuditTests.test_independent_primary_scope_claim) ... ok
+test_independent_projector_semantics_after_fixture_rebind (__main__.IndependentAuditTests.test_independent_projector_semantics_after_fixture_rebind) ... ok
+test_independent_rank_diagnostic (__main__.IndependentAuditTests.test_independent_rank_diagnostic) ... ok
+test_independent_relaxed_config (__main__.IndependentAuditTests.test_independent_relaxed_config) ... ok
+test_independent_seed_row_identity (__main__.IndependentAuditTests.test_independent_seed_row_identity) ... ok
+test_independent_seed_swap (__main__.IndependentAuditTests.test_independent_seed_swap) ... ok
+test_independent_stage_failure_marker (__main__.IndependentAuditTests.test_independent_stage_failure_marker) ... ok
+test_independent_test_refit_full_score (__main__.IndependentAuditTests.test_independent_test_refit_full_score) ... ok
+test_independent_watchdog_failure (__main__.IndependentAuditTests.test_independent_watchdog_failure) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 6.007s
+
+OK

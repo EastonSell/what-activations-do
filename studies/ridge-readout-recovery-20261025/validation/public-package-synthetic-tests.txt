@@ -1,0 +1,19 @@
+Fresh public-derivative validation using a relocated checkout. Synthetic arrays or public tables only.
+
+test_no_array_archive_or_bytecode_payloads_shipped (test_publication.PublicationTests.test_no_array_archive_or_bytecode_payloads_shipped) ... ok
+test_no_private_paths_or_owner_repository_urls_in_source (test_publication.PublicationTests.test_no_private_paths_or_owner_repository_urls_in_source) ... ok
+test_original_manifest_bytes_are_preserved (test_publication.PublicationTests.test_original_manifest_bytes_are_preserved) ... ok
+test_original_protocol_clearance_does_not_validate_derivative (test_publication.PublicationTests.test_original_protocol_clearance_does_not_validate_derivative) ... ok
+test_original_source_clearance_does_not_validate_derivative (test_publication.PublicationTests.test_original_source_clearance_does_not_validate_derivative) ... ok
+test_public_source_freeze_has_a_new_identity (test_publication.PublicationTests.test_public_source_freeze_has_a_new_identity) ... ok
+test_report_bytes_are_exact_reviewed_originals (test_publication.PublicationTests.test_report_bytes_are_exact_reviewed_originals) ... ok
+test_scientific_code_parameters_and_guards_unchanged (test_publication.PublicationTests.test_scientific_code_parameters_and_guards_unchanged) ... ok
+test_accuracy_and_support_integer_denominators (test_report_summary.PublicSummaryTests.test_accuracy_and_support_integer_denominators) ... ok
+test_complete_unique_metric_and_fit_coverage (test_report_summary.PublicSummaryTests.test_complete_unique_metric_and_fit_coverage) ... ok
+test_report_means_and_distinct_primary_rescue_contrasts (test_report_summary.PublicSummaryTests.test_report_means_and_distinct_primary_rescue_contrasts) ... ok
+test_saved_fit_diagnostics_obey_fixed_gates_and_report_ranks (test_report_summary.PublicSummaryTests.test_saved_fit_diagnostics_obey_fixed_gates_and_report_ranks) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.033s
+
+OK
