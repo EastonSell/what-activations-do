@@ -11,6 +11,7 @@ The work moves from controlled vector examples to learned digit features and a p
 - [Inspect the copy-target interchange study](studies/copy-activation-interchange/README.md) and its [full report](studies/copy-activation-interchange/report/REPORT.md).
 - [Inspect the frozen-head digit ablation](studies/frozen-head-digits-20261024/README.md): completed norm-matched perturbation study, with its [result and limitations](studies/frozen-head-digits-20261024/report/RESULTS.md). The trained-versus-random comparison failed its competence gate.
 - [Inspect the ridge readout recovery study](studies/ridge-readout-recovery-20261025/README.md): refitting after eight-PC deletion reached 42.11% versus 95.61% untouched accuracy, a partial rescue rather than near-baseline recovery; [full results and limitations](studies/ridge-readout-recovery-20261025/report/RESULTS.md).
+- [Verify the frozen ridge package](docs/RIDGE_PUBLICATION_CHECKS.md) with an offline, standard-library-only checker before executing its code; integrity verification is not a new experiment or full-array audit.
 - [Use SETUP.md](SETUP.md) for the original experiments; later studies have separate setup and evidence instructions.
 
 ## Watch the narrated explanation
