@@ -6,9 +6,13 @@ Removing high-variance activation directions can make a representation look simp
 
 ## Research question
 
-**For the tested digit representations, is removing high-variance activation directions harmless, and can a fixed refitted ridge readout restore performance after eight-PC deletion?**
+**Sharper question:** How much of leading-PC ablation damage is stable under function-preserving hidden-unit rescaling, and how much is specific to the chosen decoder?
 
-The broader motivation is to understand what centering, projection and activation replacement change in a model's answers. The finite question above is answered by the two completed studies below; the geometry and language-model examples provide separate context, not extra replications of that answer.
+The [mathematical review](docs/PCA_ABLATION_MATH.md) proves why this distinction matters: the PCA ridge refit cannot change retained coefficients; equal-norm orientation controls can remain invertible; and functionally identical ReLU networks with identical covariance spectra can have opposite leading-PC deletion outcomes. These are structural results, not new digit experiments. The sharper empirical question remains unanswered.
+
+**Completed empirical question:** For the tested digit representations, is removing high-variance activation directions harmless, and can the specified fixed ridge estimator retain near-baseline performance after eight-PC deletion?
+
+The finite completed question is answered by the two studies below. The geometry and language-model examples provide separate context, not extra replications of that answer.
 
 ## Answer and results
 
@@ -21,6 +25,8 @@ The broader motivation is to understand what centering, projection and activatio
 | [Descriptive rescue](studies/ridge-readout-recovery-20261025/report/RESULTS.md) | PCA-8 ridge versus the original head on the same PCA-edited features | **42.11% versus 15.11%**, a **+27.00-point** gain; not the primary comparison |
 
 The original frozen head's clean accuracy was **97.22%**, not the **95.61%** matched ridge baseline. The ridge study did not meet its frozen two-point recovery sensitivity rule. That failure applies to the specified readout and intervention, not every possible decoder.
+
+**Mathematical qualification:** for this shared training-PCA basis and fixed isotropic ridge objective, the PCA-refitted head equals the untouched ridge with deleted-PC coefficients zeroed. Its retained coefficients do not adapt. The 27-point gain over the original head therefore compares different fitted readouts, not PCA-specific adaptation of the clean ridge. [Proof, counterexamples and limits](docs/PCA_ABLATION_MATH.md).
 
 ### What was tested
 
@@ -52,6 +58,7 @@ The [verification guide](docs/RIDGE_PUBLICATION_CHECKS.md) explains the pinned m
 
 - [Explore a small geometry example](docs/START_HERE.md), including why moving the origin differs from deleting directions.
 - [Read the research overview](docs/RESEARCH_OVERVIEW.md) for hypotheses, methods, related work and next tests.
+- [Read the 27 October numerical errata](docs/NUMERICAL_ERRATA_20261027.md). New geometry callers should use [geometry_v2.py](geometry_v2.py); historical runners retain frozen `geometry.py`. The prospective geometry and log-softmax corrections do not rewrite archived results, and no impact on published metrics has been established.
 - [Inspect the copy-target interchange study](studies/copy-activation-interchange/README.md) and its [full report](studies/copy-activation-interchange/report/REPORT.md).
 - [Inspect the frozen-head digit ablation](studies/frozen-head-digits-20261024/README.md): completed norm-matched perturbation study, with its [result and limitations](studies/frozen-head-digits-20261024/report/RESULTS.md). The trained-versus-random comparison failed its competence gate.
 - [Inspect the ridge readout recovery study](studies/ridge-readout-recovery-20261025/README.md): refitting after eight-PC deletion reached 42.11% versus 95.61% untouched accuracy, a partial rescue rather than near-baseline recovery; [full results and limitations](studies/ridge-readout-recovery-20261025/report/RESULTS.md).

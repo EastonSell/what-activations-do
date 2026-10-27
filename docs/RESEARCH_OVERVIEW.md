@@ -3,13 +3,15 @@
 
 Evidence snapshot: 22 October 2026. The studies below form a sequence of distinct tests; a later result does not replace an earlier failed gate.
 
+**27 October mathematical correction:** this historical overview now qualifies projection versus information loss and links the [three structural limits on PCA-ablation interpretation](PCA_ABLATION_MATH.md). Its older empirical snapshot is not a new experiment or a substitute for the later frozen-head/ridge reports.
+
 ## Abstract
 
-This project investigates how representation edits affect task behavior. Synthetic controls distinguish recentering from information-removing projection; learned digit features show that leading principal components can carry useful class information. Pretrained arithmetic studies fail prespecified capability gates, preventing downstream interpretation. A later word-copying study finds preserved exact predictions after validation-selected removal of four training PCs, with an accuracy ceiling in random controls as well. A separate 64-prompt activation-interchange study shows a coarse change from source-word to final-position sensitivity across sampled decoder blocks. The evidence supports task- and intervention-specific observations. It does not identify an exclusive circuit, a semantic truth direction or brain correspondence.
+This project investigates how representation edits affect task behavior. Synthetic controls distinguish recentering from projections that lose information in specified examples; learned digit features show that leading principal components can carry useful class information. Pretrained arithmetic studies fail prespecified capability gates, preventing downstream interpretation. A later word-copying study finds preserved exact predictions after validation-selected removal of four training PCs, with an accuracy ceiling in random controls as well. A separate 64-prompt activation-interchange study shows a coarse change from source-word to final-position sensitivity across sampled decoder blocks. The evidence supports task- and intervention-specific observations. It does not identify an exclusive circuit, a semantic truth direction or brain correspondence.
 
 ## Question and motivation
 
-A geometric change is easy to visualize but harder to interpret. Moving an origin changes cosine relationships while preserving Euclidean differences. Removing a direction discards information, whether that information is nuisance variation or useful signal. A probe can decode something that a model does not rely on, while an intervention can disrupt many features at once.
+A geometric change is easy to visualize but harder to interpret. Moving an origin can change cosine relationships while preserving Euclidean differences. Removing a direction is non-invertible on the full ambient space, but may remain injective on the actual activation support or preserve everything needed for a task. Information loss requires a specified support/distribution and recovery target; failure of one decoder does not establish it. A probe can decode something that a model does not rely on, while an intervention can disrupt many features at once.
 
 The research asks:
 
